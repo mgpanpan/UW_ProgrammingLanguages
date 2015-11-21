@@ -1,0 +1,5 @@
+#lang racket
+
+(require "macro_hygiene_example.rkt")
+
+(double1 2)

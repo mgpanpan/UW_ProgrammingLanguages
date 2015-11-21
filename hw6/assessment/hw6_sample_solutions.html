@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0124)https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/0 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg polyfill-important"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta charset="utf-8"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Programming Languages | Coursera</title>    <link rel="stylesheet" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/shims/styles/shim.css"><link href="./hw6_sample_solutions_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./hw6_sample_solutions_files/course.css" rel="stylesheet" type="text/css">
+      <link href="./hw6_sample_solutions_files/hg.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/proglang/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./hw6_sample_solutions_files/MathJax.js"></script><script type="text/javascript" async="" src="./hw6_sample_solutions_files/ga.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/hg/js/app/routes" src="./hw6_sample_solutions_files/routes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./hw6_sample_solutions_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./hw6_sample_solutions_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./hw6_sample_solutions_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/catalogApi" src="./hw6_sample_solutions_files/catalogApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./hw6_sample_solutions_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./hw6_sample_solutions_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./hw6_sample_solutions_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./hw6_sample_solutions_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/util/abUtils" src="./hw6_sample_solutions_files/abUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./hw6_sample_solutions_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./hw6_sample_solutions_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./hw6_sample_solutions_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./hw6_sample_solutions_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./hw6_sample_solutions_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./hw6_sample_solutions_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./hw6_sample_solutions_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./hw6_sample_solutions_files/sidebar(1).js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="shims/form-core.js" src="./hw6_sample_solutions_files/form-core.js"></script></head><body><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://courserahelp.zendesk.com/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/484adcfc6584cd82615b908b8eb64ebd2d305ad4/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Programming Languages</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8585290">Pan Mengguan<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/proglang-003/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><a href="https://class.coursera.org/proglang-003/auth/logout" class="course-topbar-sublist-item">Sign Out</a></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/uw" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/uw" class="coursera-university-color"><img src="./hw6_sample_solutions_files/university_logo" alt="uw"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/proglang-003/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Programming Languages</a><br><span style="" class="course-topbanner-instructor">by Dan  Grossman</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/proglang-003" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./hw6_sample_solutions_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/proglang-003/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home_/_Announcements" class="coursera-university-color"><span>Home / Announcements </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Videos_and_Reading_Notes" class="coursera-university-color"><span>Videos and Reading Notes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Programming_Assignments" class="coursera-university-color"><span>Programming Assignments </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/human_grading/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Peer_Assessments" class="coursera-university-color"><span>Peer Assessments </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/index?quiz_type=exam" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Exams" class="coursera-university-color"><span>Exams </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_the_Course" class="coursera-university-color"><span>About the Course </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics_/_Policies" class="coursera-university-color"><span>Course Logistics / Policies </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/SoftwareInstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Software_Installation" class="coursera-university-color"><span>Software Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/approxSchedule" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Anticipated_Schedule" class="coursera-university-color"><span>Anticipated Schedule </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_the_Course_Staff" class="coursera-university-color"><span>About the Course Staff </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://www.surveymonkey.com/s/5NPGQRR?c=18f8cc45aa297f081faa9c948e6d091193aaaf11" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Coursera_Demographic_Survey" class="coursera-university-color"><span>Coursera Demographic Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/start?quiz_id=428" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Beginning_of_Course_Survey" class="coursera-university-color"><span>Beginning of Course Survey </span><span></span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://courserahelp.zendesk.com/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Articles</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://class.coursera.org/proglang-003/forum/list?forum_id=10000&url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F12" class="coursera-university-color"><i class="icon-comments"></i>Course Materials Errors</a></li><li><a href="https://class.coursera.org/proglang-003/forum/list?forum_id=10001&url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F12" class="coursera-university-color"><i class="icon-comments"></i>Technical Issues</a></li></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;"><div id="main"><div id="AssessmentsLayout">
+<div id="hg-data" style="display: none">
+  <input id="hg-data-phase" type="hidden" value="grading">
+  <input id="hg-data-step" type="hidden" value="peerGrading">
+  <input id="hg-data-step-page" type="hidden" value="0">
+  <input id="hg-data-data" type="hidden" value="{&quot;submission_id&quot;:9449,&quot;evaluation_id&quot;:29686}">
+</div><a data-coursera-admin-helpwidget-link="data-coursera-admin-helpwidget-link" rel="help" href="https://class.coursera.org/mooc/help/peer" title="Peer Assessments" target="_blank" style="display:none;">Learn more</a>
+<div id="assessmentContainer" aria-live="polite" class="container-fluid">
+  <div id="assessmentNavigationRegion" class="navigationRegion"><div id="AssessmentNavigationView">
+<ul class="breadcrumb">
+  <li><a href="https://class.coursera.org/proglang-003/human_grading/">Peer Assessments</a></li>
+  <li><span class="divider">/</span>Homework 6 (in Section 7)</li><a target="_blank" href="https://accounts.coursera.org/i/zendesk/courserahelp?return_to=https://courserahelp.zendesk.com/hc" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." class="coursera-reporter-link">Help</a>
+</ul>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul id="hg-nav" class="nav">
+        <li id="hg-nav-phase-submitting" class="hg-nav-phase hg-nav-border-left hg-nav-border-right" data-hg-date-status="past">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-success">
+              <div class="bar" style="width: 100%;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-open" style="display: none;"><span data-livetimer-date-primitive="1415923200000" class="hg-date" data-livetimer-date-original="Thu 13 Nov 2014  4:00 PM PST" title="opened on Thu 13 Nov 2014  4:00 PM PST
+(3 weeks, 2 days ago)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">opened Thu 13 Nov 2014  4:00 PM PST</span><span class="livetimer-relative">opened 3wk 2d ago</span></span></div>
+              <div class="hg-asst-interval-part hg-asst-interval-close"><span data-livetimer-date-primitive="1417050000000" class="hg-date" data-livetimer-date-original="Wed 26 Nov 2014  5:00 PM PST" title="closed on Wed 26 Nov 2014  5:00 PM PST
+(1 week, 3 days ago)" data-hg-date-status="past" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">closed Wed 26 Nov 2014  5:00 PM PST</span><span class="livetimer-relative">closed 1wk 3d ago</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Submission Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-submitting" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/submissions" class="hg-internal" data-original-title=""><span class="step">1.</span><span>Do assignment</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other icon-check"></span></span></a></li>
+          </ul>
+        </li>
+        <li id="hg-nav-phase-grading" class="hg-nav-phase hg-nav-border-left hg-nav-border-right hg-phase-active hg-phase-relevant" data-hg-date-status="current">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-info">
+              <div class="bar" style="width: 85%;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-open" style="display: none;"><span data-livetimer-date-primitive="1417053600000" class="hg-date" data-livetimer-date-original="Wed 26 Nov 2014  6:00 PM PST" title="opened on Wed 26 Nov 2014  6:00 PM PST
+(1 week, 3 days ago)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">opened Wed 26 Nov 2014  6:00 PM PST</span><span class="livetimer-relative">opened 1wk 3d ago</span></span></div>
+              <div class="hg-asst-interval-part hg-asst-interval-close"><span data-livetimer-date-primitive="1418000400000" class="hg-date" data-livetimer-date-original="Sun  7 Dec 2014  5:00 PM PST" title="is due on Sun  7 Dec 2014  5:00 PM PST
+(in 1 day, 13 hours)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">due Sun  7 Dec 2014  5:00 PM PST</span><span class="livetimer-relative">due in 1day 13h</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Evaluation Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-peerGrading" class="hg-nav-step active"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets" class="hg-internal" data-original-title=""><span class="step">2.</span><span>Evaluate peers</span><span class="hg-nav-step-status hg-nav-step-status-select-todo"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other"></span></span></a></li>
+            <li id="hg-nav-step-selfGrading" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/selfGradingSets" class="hg-internal disabled" data-original-title="" disabled="disabled"><span class="step">3.</span><span>Self-evaluate</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other icon-lock"></span></span></a></li>
+          </ul>
+        </li>
+        <li id="hg-nav-phase-results" class="hg-nav-phase hg-nav-border-left hg-nav-border-right" data-hg-date-status="future">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-info">
+              <div class="bar" style="width: 0px;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-available"><span data-livetimer-date-primitive="1418004000000" class="hg-date" data-livetimer-date-original="Sun  7 Dec 2014  6:00 PM PST" title="available Sun  7 Dec 2014  6:00 PM PST
+(in 1 day, 14 hours)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">available Sun  7 Dec 2014  6:00 PM PST</span><span class="livetimer-relative">in 1day 14h</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Results Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-results" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/results/mine" class="hg-internal disabled" data-original-title="" disabled="disabled"><span class="step">4.</span><span>See results</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-other icon-lock"></span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div></div></div>
+  <div id="assessmentMessages"></div>
+  <div id="assessmentContentRegion" class="contentRegion"><div style="display: block;">
+<div class="returnLink"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118" class="hg-internal"><i class="icon-arrow-left"></i>&nbsp;Return to list</a></div>
+<!-- h1.assessmentTitle Homework 6 (in Section 7)-->
+<div id="assessmentForm">
+  <div id="topContentToolbar" class="contentToolbar form-actions">
+<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><a class="hg-internal btn" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/1"><i class="icon-step-forward"></i> Preview next submission</a>&nbsp;&nbsp;<div class="alert alert-info" style="display: inline-block; vertical-align: top">You are urged to preview the work of all 3 of your peers before you start submitting your required evaluations.<br><b>Remember</b> to click the "Submit Evaluation" button after <i>each</i> time that you fill out an evaluation.</div></div><div class="pull-left" style="text-align: left; clear: both"><div class="hg-peergrading-counter">3 remaining of 3 required evaluations</div></div><div class="pull-right"><button id="assessmentSave" class="hg-internal btn">Save draft</button><button id="assessmentSubmit" class="hg-internal btn btn-primary">Submit evaluation</button></div></div></div></div>
+  <div id="assessmentFormContent"><div class="evaluationForm"><div id="assessmentHead"><h1 class="assessmentTitle">Submission from: <span class="assessmentSubmissionAuthor">Student 1</span></h1><div id="forumThreadLinkSection"></div></div><div id="evaluatedGroup-f5181fe227d21a37" class="assessmentSection"><div class="assessmentExposition"><div class="assessmentText shrinkableBlock" dir="auto"><p>On this page, you will submit Homework 6 for peer assessment and assess submissions from some other students. Please follow the instructions carefully.</p>
+
+<p>For submission, follow these instructions (same as for previous homeworks):</p>
+<ul>
+    <li>
+        Click the "Attach a file" button below to upload your solutions file (just your solutions file, <i>not</i> your testing file).  This should, somewhat strangely, put the <i>name</i> of your file in the text box above the "Attach a file" button. This is correct behavior.  Do <i>not</i> paste file contents into the text box as this is unlikely to preserve indentation well.
+    </li>
+    <li>
+        Submit (or Re-submit) your assignment by clicking the big submit (or re-submit) button (after checking the Honor Code box).
+    </li>
+    <li>
+        You should see, "Your work was submitted. Review your work to make sure everything looks OK." Click on, "review your work."
+    </li>
+    <li>
+        You should see a box with the name of your file. Now you can click on this file name to get your solutions. They should appear formatted and indented exactly like the file you uploaded.  Depending on your browser, you may need to save the file and view it in a separate editor.
+    </li>
+</ul>
+
+<p>For assessing others' submissions, <b>first carefully read the instructions on  
+<a target="" href="https://class.coursera.org/proglang-003/human_grading/index">the main peer assessment page</a></b>. Then read the specific instructions for grading each problem.  Because the file you are downloading contains a program you did not write, follow general security precautions: Do not run the code without checking that it does no harmful things.  For completing peer assessment, you probably do not need to run the code at all since you are evaluating how the code is written.
+</p>
+
+<p><i>Remember to do at least as good a job as you hope others will do for your assignment.</i>
+</p></div></div></div><div class="sectionEvaluationGroup" data-evaluated="evaluatedGroup-f5181fe227d21a37"><div class="evaluationGroupHeader"><h3>Overall evaluation/feedback</h3></div><div class="assessmentExposition"><div class="assessmentText" dir="auto"><p>General instructions: Overall, this assignment has much more flexibility than earlier ones, so we will, as usual, present a sample solution, but we will also discuss some alternatives.  We may not present all reasonable alternatives.  Use your best judgment in evaluating the length, OOP-style, and general Ruby-style of a solution.  Overall, use of <tt>super</tt> is a good thing, as is use of helper methods.</p>
+<p>
+Remember this general description of the numeric scores:
+<br><br>
+<b>5</b>: This is a flawless or nearly flawless solution.  Everything in the
+code is there for a reason, it is easy to read, it is indented well,
+and it uses the appropriate language constructs from the course.  It
+is hard to imagine any correct solution being much simpler.
+
+<br><br>
+<b>4</b>: The code is very good style, but there are one or two places where
+there was a clearly better thing to do.  For example, maybe the
+student wrote "if e then true else false."  Or maybe there is an
+unnecessary case or a redundant computation.  Or the code
+is mostly nicely formatted, but one part was formatted badly.  You
+should be able to justify a 4 instead of a 5 by giving a specific
+place or two where there is something that is not as good as it could
+be.
+
+<br><br>
+<b>3</b>: The code is okay, but it is too difficult to read in some places because
+there are simpler ways to say the same thing.  Or maybe the student
+did not follow the instructions completely in terms of what language
+constructs to use or not use, but not in a way that made a huge
+difference.  A good way to think about a "3" score is that it is a "4"
+score where the list of issues is too long.
+
+<br><br>
+<b>2</b>: This code might be a correct solution, but it was very difficult to
+read.  There were many style problems.  The overall structure is not
+clear.  Or the solution is far more complicated or longer (e.g., 2-3
+times as long) as it needs to be.
+
+<br><br>
+<b>1</b>: This solution is too far away from a correct one to be reasonably
+graded.  Most or all cases are not handled correctly.  The homework
+was not really completed so the code for this problem is too short to
+be evaluated.
+</p></div></div></div><div id="evaluatedGroup-a046dd6e6531f312" class="assessmentSection"><div id="evaluatedGroup-9b78435b79acd7" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-9b78435b79acd7" class="assessmentText" dir="auto">Follow the instructions above to upload your <tt>hw6assignment.rb</tt> file containing your solutions.
+</div></div><div class="assessmentAnswer" aria-labelledby="assessmentText-9b78435b79acd7"><div class="assessmentText" dir="auto" data-bind="html submission.fields.cfbe5a25ab132c13"><br><a href="https://s3.amazonaws.com/coursera-uploads/user-d1b69f4c3b9227a6f56fedba/973301/asst-12/28b37b30703b11e4a29d31e2acbac273.rb">hw6assignment</a><br></div><a target="_blank" href="https://class.coursera.org/proglang-003/help/flag?url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F12%2Fsubmissions%2F9449" class="course-peergrading-reporter-link">flag</a></div></div><div class="evaluationGroup" data-evaluated="evaluatedGroup-9b78435b79acd7"><div class="evaluationGroupHeader"><h3>Evaluation/feedback on the above work</h3></div><div id="evaluatedGroup-8639414dbbf02933" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-8639414dbbf02933" class="assessmentText" dir="auto">First, let's evaluate the general structure of the solution. Are there
+classes <tt>MyTetris</tt>, <tt>MyPiece</tt>, and <tt>MyBoard</tt>
+subclassing the appropriate classes as in the provided code?  Are
+there no other classes? (There really should not be any need for other
+classes, but it is plausible an extra class is good style somehow.)
+Does each class definition have well-formatted method definitions?
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-8639414dbbf02933"><div id="d6dbbcd5a9b86790-validationErrorMessage" class="validationErrorMessage"></div><div id="d6dbbcd5a9b86790-validationErrorContainer"><select id="evaluationField-d6dbbcd5a9b86790" data-modelbind="evaluation.fields.d6dbbcd5a9b86790" aria-labelledby="assessmentText-8639414dbbf02933" class="assessmentFormField">  <option value=""></option>  <option value="30b613d8b60ca560">1</option>  <option value="27dd5a62417bcabe">2</option>  <option value="754240db94f98dd3">3</option>  <option value="1518c4dac9b52936">4</option>  <option value="f8de12c4d31a3364">5</option></select></div></div></div><div id="evaluatedGroup-f8c4e793272ff47f" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-f8c4e793272ff47f" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-f8c4e793272ff47f"><div id="8c7dd9e479ae34b5-validationErrorMessage" class="validationErrorMessage"></div><div id="8c7dd9e479ae34b5-validationErrorContainer"><textarea dir="auto" id="textarea-8c7dd9e479ae34b5" data-modelbind="evaluation.fields.8c7dd9e479ae34b5" data-min-words="0" aria-labelledby="assessmentText-f8c4e793272ff47f" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-8c7dd9e479ae34b5" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-aa87fc141e5cd50a" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-aa87fc141e5cd50a" class="assessmentText" dir="auto">Here we evaluate how the solution adds key bindings (related to enhancements 1 and 3) to the program. The relevant part of the sample solution looks like this (in class <tt>MyTetris</tt>):
+<pre>  def key_bindings
+    super
+    @root.bind('u', proc { @board.rotate_clockwise; @board.rotate_clockwise })
+    @root.bind('c', proc { @board.maybe_cheat })
+  end
+</pre>
+Note that <tt>maybe_cheat</tt> is a method defined in <tt>MyBoard</tt> that we will consider later. Overall, we are looking for a similarly short and clean way to add the two key bindings, but there are many different ways to do this:
+<ul>
+    <li>If the solution overrides <tt>key_bindings</tt>, does not call <tt>super</tt>, and copies all the key bindings from the superclass into this method, give a 4 (which is possibly generous for so much code copying).</li>
+    <li>If the solution does not override <tt>key_bindings</tt> but instead puts the new bindings in a different method (or methods), that can still get a 5. The code probably needs to override <tt>initialize</tt> for <tt>MyTetris</tt>, including a call to <tt>super</tt> in <tt>initialize</tt>. As in
+        the previous point, generously give a 4 if they override <tt>initialize</tt> but without a call to <tt>super</tt>.</li>
+    <li>If the new key bindings are in a poorly named method like <tt>buttons</tt>, give a 3.</li>
+    <li>We are flexible about exactly what methods the blocks passed to <tt>proc</tt> use, but these blocks should be short. Deduct a point if they are more than 2-3 lines long.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-aa87fc141e5cd50a"><div id="8565530b89397e65-validationErrorMessage" class="validationErrorMessage"></div><div id="8565530b89397e65-validationErrorContainer"><select id="evaluationField-8565530b89397e65" data-modelbind="evaluation.fields.8565530b89397e65" aria-labelledby="assessmentText-aa87fc141e5cd50a" class="assessmentFormField">  <option value=""></option>  <option value="965f84d4c23638f3">1</option>  <option value="ce0fa395af13871">2</option>  <option value="9a69e60ffb61d0a">3</option>  <option value="9cccda1650da7177">4</option>  <option value="a7304ee2fa19">5</option></select></div></div></div><div id="evaluatedGroup-3a09ff3942a2bc5" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-3a09ff3942a2bc5" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-3a09ff3942a2bc5"><div id="a3a1ed0b98d9a7a4-validationErrorMessage" class="validationErrorMessage"></div><div id="a3a1ed0b98d9a7a4-validationErrorContainer"><textarea dir="auto" id="textarea-a3a1ed0b98d9a7a4" data-modelbind="evaluation.fields.a3a1ed0b98d9a7a4" data-min-words="0" aria-labelledby="assessmentText-3a09ff3942a2bc5" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-a3a1ed0b98d9a7a4" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-7e07ac0d57c5a4cc" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-7e07ac0d57c5a4cc" class="assessmentText" dir="auto">Here we evaluate the code for performing 180-degree-rotation. As already seen above, the sample solution uses this block:
+<pre>{ @board.rotate_clockwise; @board.rotate_clockwise }
+</pre>
+Here is another fine solution:
+<pre>{ @board.rotate_counter_clockwise; @board.rotate_counter_clockwise }
+</pre>
+A third fine solution is to add a method to <tt>MyBoard</tt> and call it. Such a method could look like this:
+<pre>  def rotate_180
+    if !game_over? and @game.is_running?
+      @current_block.move(0, 0, 2) # or 2 can be -2
+    end
+    draw
+  end
+</pre>
+For any solutions longer or more complicated than this, deduct at least one point.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-7e07ac0d57c5a4cc"><div id="e57e87b4b4631542-validationErrorMessage" class="validationErrorMessage"></div><div id="e57e87b4b4631542-validationErrorContainer"><select id="evaluationField-e57e87b4b4631542" data-modelbind="evaluation.fields.e57e87b4b4631542" aria-labelledby="assessmentText-7e07ac0d57c5a4cc" class="assessmentFormField">  <option value=""></option>  <option value="367f936517c0c4da">1</option>  <option value="926ce1d926d48f">2</option>  <option value="75e5c1048b8880d0">3</option>  <option value="b00cc9e36f5ca318">4</option>  <option value="b6351af165a3e5a">5</option></select></div></div></div><div id="evaluatedGroup-6592aaa869e63bf0" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-6592aaa869e63bf0" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-6592aaa869e63bf0"><div id="d835f91b4fa83a73-validationErrorMessage" class="validationErrorMessage"></div><div id="d835f91b4fa83a73-validationErrorContainer"><textarea dir="auto" id="textarea-d835f91b4fa83a73" data-modelbind="evaluation.fields.d835f91b4fa83a73" data-min-words="0" aria-labelledby="assessmentText-6592aaa869e63bf0" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-d835f91b4fa83a73" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-a45edcfd106b123f" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-a45edcfd106b123f" class="assessmentText" dir="auto">We now start considering changes needed for enhancement 2. Here we consider the class constant <tt>All_My_Pieces</tt> in class <tt>MyPiece</tt> as required by the assignment. The sample solution sets this constant like this:
+<pre>  All_My_Pieces = All_Pieces + [
+     [[[0, 0], [-1, 0], [1, 0], [2, 0], [-2,0]], # 5-long
+        [[0, 0], [0, -1], [0, 1], [0, 2], [0, -2]]],
+     rotations([[0, 0], [-1, 0], [1, 0], [0, -1], [-1,-1]]), # utah
+     rotations([[0, 0], [1, 0], [0, 1]]) # short-L
+  ]
+</pre>
+<ul>
+    <li>Deduct a point if all the pieces from <tt>All_Pieces</tt> are copied over into this file.</li>
+    <li>Deduct a point if the solution does not use rotations for at least one of the pieces.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-a45edcfd106b123f"><div id="592dc422b76b2b88-validationErrorMessage" class="validationErrorMessage"></div><div id="592dc422b76b2b88-validationErrorContainer"><select id="evaluationField-592dc422b76b2b88" data-modelbind="evaluation.fields.592dc422b76b2b88" aria-labelledby="assessmentText-a45edcfd106b123f" class="assessmentFormField">  <option value=""></option>  <option value="6acb1173cbabe240">1</option>  <option value="3aa013c129aa6b1b">2</option>  <option value="2189f8ff6139a8e9">3</option>  <option value="448f2a7ebf542a59">4</option>  <option value="e0613fe0af277cac">5</option></select></div></div></div><div id="evaluatedGroup-739236fe599270d" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-739236fe599270d" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-739236fe599270d"><div id="cabd1e4ea5570ea-validationErrorMessage" class="validationErrorMessage"></div><div id="cabd1e4ea5570ea-validationErrorContainer"><textarea dir="auto" id="textarea-cabd1e4ea5570ea" data-modelbind="evaluation.fields.cabd1e4ea5570ea" data-min-words="0" aria-labelledby="assessmentText-739236fe599270d" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-cabd1e4ea5570ea" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-278cd48386ecc16" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-278cd48386ecc16" class="assessmentText" dir="auto">A disappointing amount of overriding and code copying is needed to get the game to use <tt>All_My_Pieces</tt> instead of the <tt>All_Pieces</tt> constant in the superclass. The sample solution includes these relevant methods:
+<pre># in MyTetris:
+  def set_board
+    @canvas = TetrisCanvas.new
+    @board = MyBoard.new(self) # notice change
+    @canvas.place(@board.block_size * @board.num_rows + 3,
+                  @board.block_size * @board.num_columns + 6, 24, 80)
+    @board.draw
+  end
+# in MyPiece:
+  def self.next_piece (board)
+    MyPiece.new(All_My_Pieces.sample, board) # notice change
+  end
+# in MyBoard:
+  def initialize (game)
+    @cheat = false # related to cheat piece, discussed more later
+    @grid = Array.new(num_rows) {Array.new(num_columns)}
+    @current_block = MyPiece.next_piece(self) # notice change
+    @score = 0
+    @game = game
+    @delay = 500
+  end
+</pre>
+(We also override <tt>next_piece</tt> and <tt>store_current</tt> in <tt>MyBoard</tt>, but we will look at those separately.) For this assessment question, see if the solution copies a roughly similar amount of code in order to use <tt>All_My_Pieces</tt>. If much more is copied but the
+code is still readable, give a 4. If almost all the provided code is copied, give at most a 3, probably a 2.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-278cd48386ecc16"><div id="44d4e3cb2197f0b5-validationErrorMessage" class="validationErrorMessage"></div><div id="44d4e3cb2197f0b5-validationErrorContainer"><select id="evaluationField-44d4e3cb2197f0b5" data-modelbind="evaluation.fields.44d4e3cb2197f0b5" aria-labelledby="assessmentText-278cd48386ecc16" class="assessmentFormField">  <option value=""></option>  <option value="459c14c232dfa25">1</option>  <option value="c8c436951470a4ae">2</option>  <option value="ad27484bb8127689">3</option>  <option value="cf3c52697b73bd2">4</option>  <option value="18489658e0911698">5</option></select></div></div></div><div id="evaluatedGroup-fbc79b70db95779b" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-fbc79b70db95779b" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-fbc79b70db95779b"><div id="642e4a3e6246330-validationErrorMessage" class="validationErrorMessage"></div><div id="642e4a3e6246330-validationErrorContainer"><textarea dir="auto" id="textarea-642e4a3e6246330" data-modelbind="evaluation.fields.642e4a3e6246330" data-min-words="0" aria-labelledby="assessmentText-fbc79b70db95779b" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-642e4a3e6246330" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-95dd8a2600adf55" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-95dd8a2600adf55" class="assessmentText" dir="auto">The last necessary change for enhancement 2 is to override <tt>store_current</tt> in <tt>MyBoard</tt> because the provided code is broken if a Tetris piece does not have exactly 4 blocks in it. This unfortunately requires copying some code. The sample solution does it
+like this:
+<pre># in MyPiece:
+  def num_blocks
+    @all_rotations[0].size
+  end
+# in MyBoard:
+  def store_current
+    locations = @current_block.current_rotation
+    displacement = @current_block.position
+    (0...(@current_block.num_blocks)).each{|index|  # notice change
+      current = locations[index];
+      @grid[current[1]+displacement[1]][current[0]+displacement[0]] = 
+      @current_pos[index]
+    }
+    remove_filled
+    @delay = <a href="mailto:[@delay - 2, 80].max">[@delay - 2, 80].max</a>
+  end
+</pre>
+<p>There are various ways for an instance of <tt>MyPiece</tt> to compute how many blocks it has. For example, it is fine style for it to be in an instance variable of <tt>MyPiece</tt> that is set in <tt>initialize</tt>. It is also possible and fine for <tt>MyBoard</tt> to store the number
+    of blocks in <tt>@current_block</tt> rather than re-asking every time <tt>store_current</tt> is called.</p>
+<p>
+    As an example of a longer solution deserving a 3, suppose <tt>store_current</tt> was basically 4 times as long, with separate cases for when <tt>@current_block</tt> has 1, 3, 4, or 5 blocks.
+</p>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-95dd8a2600adf55"><div id="77cca668880d1ebf-validationErrorMessage" class="validationErrorMessage"></div><div id="77cca668880d1ebf-validationErrorContainer"><select id="evaluationField-77cca668880d1ebf" data-modelbind="evaluation.fields.77cca668880d1ebf" aria-labelledby="assessmentText-95dd8a2600adf55" class="assessmentFormField">  <option value=""></option>  <option value="f8d87fecaac917b2">1</option>  <option value="e95c5e83d5e4d9">2</option>  <option value="541e4d5f3ea6f52a">3</option>  <option value="c8be5a1091c45525">4</option>  <option value="37d08b7451d5c899">5</option></select></div></div></div><div id="evaluatedGroup-4426a1d8366b10b" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-4426a1d8366b10b" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-4426a1d8366b10b"><div id="61739e3782a3c50a-validationErrorMessage" class="validationErrorMessage"></div><div id="61739e3782a3c50a-validationErrorContainer"><textarea dir="auto" id="textarea-61739e3782a3c50a" data-modelbind="evaluation.fields.61739e3782a3c50a" data-min-words="0" aria-labelledby="assessmentText-4426a1d8366b10b" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-61739e3782a3c50a" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-fce0416afb29f893" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-fce0416afb29f893" class="assessmentText" dir="auto">We now start considering the changes needed for enhancement 3, the cheat piece. Here we consider the code to "remember" that the next piece should be the cheat piece and the code to adjust the score. The sample solution uses an instance variable <tt>@cheat</tt>
+in <tt>MyBoard</tt> for this purpose, though the name is not important.
+<pre># in MyTetris:
+  def key_bindings # as already assessed above
+    super
+    @root.bind('u', proc { @board.rotate_clockwise; @board.rotate_clockwise })
+    @root.bind('c', proc { @board.maybe_cheat })
+ end
+# in MyBoard:
+  def maybe_cheat
+    if @score &gt;= 100 and !@cheat
+      @score -= 100
+      @cheat = true
+    end
+  end
+</pre>
+Some specific comments:
+<ul>
+    <li>It is fine for a solution not to deduct 100 points until later, when the cheat piece actually appears. So look to see if the update of <tt>@score</tt> occurs in <tt>next_piece</tt> instead, which is fine.</li>
+    <li>Deduct a point if the logic for deducting the score only once and not having multiple-cheats (while one piece is dropping) matter is much more complicated than in the sample solution.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-fce0416afb29f893"><div id="5acc7206d1ce50c-validationErrorMessage" class="validationErrorMessage"></div><div id="5acc7206d1ce50c-validationErrorContainer"><select id="evaluationField-5acc7206d1ce50c" data-modelbind="evaluation.fields.5acc7206d1ce50c" aria-labelledby="assessmentText-fce0416afb29f893" class="assessmentFormField">  <option value=""></option>  <option value="7bea1f9a8d178eb8">1</option>  <option value="7143d7a49a4121">2</option>  <option value="44ff4422484bdd92">3</option>  <option value="ff1fc1b7e073d69">4</option>  <option value="3fd2e1905353a0c7">5</option></select></div></div></div><div id="evaluatedGroup-80f09fad601f9036" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-80f09fad601f9036" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-80f09fad601f9036"><div id="d82e555a46717dd6-validationErrorMessage" class="validationErrorMessage"></div><div id="d82e555a46717dd6-validationErrorContainer"><textarea dir="auto" id="textarea-d82e555a46717dd6" data-modelbind="evaluation.fields.d82e555a46717dd6" data-min-words="0" aria-labelledby="assessmentText-80f09fad601f9036" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-d82e555a46717dd6" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-874e8f0dc1f08a34" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-874e8f0dc1f08a34" class="assessmentText" dir="auto">Finally, we asses the logic for creating and using the cheat piece. The sample solution does this by overriding <tt>next_piece</tt> (which also needs overriding just for enhancement 2):
+<pre># in MyPiece:
+  def self.next_cheat_piece (board)
+    MyPiece.new([[[0, 0]]], board)
+  end
+# in MyBoard:
+  def next_piece
+    if (@cheat)
+       @current_block = MyPiece.next_cheat_piece(self)
+       @cheat = false
+    else
+       @current_block = MyPiece.next_piece(self)
+    end
+    @current_pos = nil
+  end
+</pre>
+The use of the helper method <tt>MyPiece.next_cheat_piece</tt> is not needed -- you can give a 5 if the <tt>MyPiece.new([[[0,0]]], board)</tt> is in <tt>next_piece</tt>. Follow general guidelines to deduct points for solutions significantly more complicated.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-874e8f0dc1f08a34"><div id="b5ec89be48d5876-validationErrorMessage" class="validationErrorMessage"></div><div id="b5ec89be48d5876-validationErrorContainer"><select id="evaluationField-b5ec89be48d5876" data-modelbind="evaluation.fields.b5ec89be48d5876" aria-labelledby="assessmentText-874e8f0dc1f08a34" class="assessmentFormField">  <option value=""></option>  <option value="5ea4b78be6976730">1</option>  <option value="85f95930d186f8d">2</option>  <option value="bdff7b2119f92d0b">3</option>  <option value="5a49de7ec815e1d3">4</option>  <option value="8402cbb3334e47d">5</option></select></div></div></div><div id="evaluatedGroup-9477c253a73dce4d" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-9477c253a73dce4d" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-9477c253a73dce4d"><div id="747e9ab71157364f-validationErrorMessage" class="validationErrorMessage"></div><div id="747e9ab71157364f-validationErrorContainer"><textarea dir="auto" id="textarea-747e9ab71157364f" data-modelbind="evaluation.fields.747e9ab71157364f" data-min-words="0" aria-labelledby="assessmentText-9477c253a73dce4d" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-747e9ab71157364f" style="color: black;">You've written 0 words</span></div></div></div></div></div></div><div class="sectionEvaluationGroup" data-evaluated="evaluatedGroup-a046dd6e6531f312"><div class="evaluationGroupHeader"><h3>Overall evaluation/feedback</h3></div><div id="evaluatedGroup-22722cba49dcd834" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-22722cba49dcd834" class="assessmentText" dir="auto">Overall Feedback: Put any general feedback not specific to individual problems here. This is optional.</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-22722cba49dcd834"><div id="4c39d7e1d73cfd95-validationErrorMessage" class="validationErrorMessage"></div><div id="4c39d7e1d73cfd95-validationErrorContainer"><textarea dir="auto" id="textarea-4c39d7e1d73cfd95" data-modelbind="evaluation.fields.4c39d7e1d73cfd95" data-min-words="0" aria-labelledby="assessmentText-22722cba49dcd834" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-4c39d7e1d73cfd95" style="color: black;">You've written 0 words</span></div></div></div></div></div> </div></div>
+  <div id="bottomContentToolbar" class="contentToolbar form-actions">
+<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><a class="hg-internal btn" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/12/peerGradingSets/8118/peerGradings/1"><i class="icon-step-forward"></i> Preview next submission</a>&nbsp;&nbsp;<div class="alert alert-info" style="display: inline-block; vertical-align: top">You are urged to preview the work of all 3 of your peers before you start submitting your required evaluations.<br><b>Remember</b> to click the "Submit Evaluation" button after <i>each</i> time that you fill out an evaluation.</div></div><div class="pull-left" style="text-align: left; clear: both"><div class="hg-peergrading-counter">3 remaining of 3 required evaluations</div></div><div class="pull-right"><button id="assessmentSave" class="hg-internal btn">Save draft</button><button id="assessmentSubmit" class="hg-internal btn btn-primary">Submit evaluation</button></div></div></div></div>
+</div>
+<div class="coursera-signature-modal"></div></div></div>
+</div></div></div>
+
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./hw6_sample_solutions_files/modernizr-custom.js"></script>
+  <script src="./hw6_sample_solutions_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/484adcfc6584cd82615b908b8eb64ebd2d305ad4/" data-version="484adcfc6584cd82615b908b8eb64ebd2d305ad4" data-timestamp="1417818937473" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/hg/js/app/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8585290,\"email_address\":\"pmengguan@gmail.com\",\"full_name\":\"Pan Mengguan\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1407939490\",\"last_access_time\":\"1417839206\",\"last_access_ip\":\"113.140.29.9\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Pan\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"212\",\"250\",\"402\",\"404\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":973301,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Programming Languages\",\"instructor\":\"Dan  Grossman\",\"sessionName\":\"proglang-003\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"proglang\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":\"\",\"linkable\":false,\"universityShortname\":\"uw\",\"signatureTrackStatus\":{\"signature_track_enabled\":1},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signin?post_redirect=https%3A%2F%2Faccounts.coursera.org%2Fsignin%3Fuser_action%3Dclass%26course_id%3D973301%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fproglang-003%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?enroll_cid=973301&enroll_sn=proglang&enroll_n=Programming Languages\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/proglang\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fproglang\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/\",\"search\":true,\"hideWiki\":true,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":\"\",\"aceExamDuration\":\"\",\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":\"\",\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":true,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":0,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":\"\",\"honorCodeCustomButton\":\"\",\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home \\\/ Announcements\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Videos and Reading Notes\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"Programming Assignments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"assignment:index\"},{\"name\":\"Peer Assessments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"human_grading:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Exams\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=exam\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"About the Course\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"Course Logistics \\\/ Policies\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Software Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"SoftwareInstallation\"},{\"name\":\"Anticipated Schedule\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"approxSchedule\"},{\"name\":\"About the Course Staff\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Coursera Demographic Survey\",\"icon\":\"\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/www.surveymonkey.com\\\/s\\\/5NPGQRR?c=18f8cc45aa297f081faa9c948e6d091193aaaf11\"},{\"name\":\"Beginning of Course Survey\",\"icon\":\"wiki\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/quiz\\\/start?quiz_id=428\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div></body></html>

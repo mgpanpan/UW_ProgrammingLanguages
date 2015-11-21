@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<!-- saved from url=(0124)https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/0 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg polyfill-important"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta charset="utf-8"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="{{ url }}"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Programming Languages | Coursera</title>    <link rel="stylesheet" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/shims/styles/shim.css"><link href="./hw5_sample_solutions_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./hw5_sample_solutions_files/course.css" rel="stylesheet" type="text/css">
+      <link href="./hw5_sample_solutions_files/hg.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/proglang/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./hw5_sample_solutions_files/MathJax.js"></script><script type="text/javascript" async="" src="./hw5_sample_solutions_files/ga.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/hg/js/app/routes" src="./hw5_sample_solutions_files/routes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./hw5_sample_solutions_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./hw5_sample_solutions_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./hw5_sample_solutions_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/catalogApi" src="./hw5_sample_solutions_files/catalogApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./hw5_sample_solutions_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./hw5_sample_solutions_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./hw5_sample_solutions_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./hw5_sample_solutions_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/util/abUtils" src="./hw5_sample_solutions_files/abUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./hw5_sample_solutions_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./hw5_sample_solutions_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./hw5_sample_solutions_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./hw5_sample_solutions_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./hw5_sample_solutions_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./hw5_sample_solutions_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./hw5_sample_solutions_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./hw5_sample_solutions_files/sidebar(1).js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="shims/form-core.js" src="./hw5_sample_solutions_files/form-core.js"></script></head><body><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://courserahelp.zendesk.com/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/ff9ade4508869acff52b87f1c9f2cc59fc079a16/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Programming Languages</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8585290">Pan Mengguan<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/records" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/proglang-003/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><a href="https://class.coursera.org/proglang-003/auth/logout" class="course-topbar-sublist-item">Sign Out</a></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/uw" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/uw" class="coursera-university-color"><img src="./hw5_sample_solutions_files/university_logo" alt="uw"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/proglang-003/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Programming Languages</a><br><span style="" class="course-topbanner-instructor">by Dan  Grossman</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/proglang-003" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./hw5_sample_solutions_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/proglang-003/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home_/_Announcements" class="coursera-university-color"><span>Home / Announcements </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Videos_and_Reading_Notes" class="coursera-university-color"><span>Videos and Reading Notes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Programming_Assignments" class="coursera-university-color"><span>Programming Assignments </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/human_grading/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Peer_Assessments" class="coursera-university-color"><span>Peer Assessments </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/index?quiz_type=exam" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Exams" class="coursera-university-color"><span>Exams </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_the_Course" class="coursera-university-color"><span>About the Course </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics_/_Policies" class="coursera-university-color"><span>Course Logistics / Policies </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/SoftwareInstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Software_Installation" class="coursera-university-color"><span>Software Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/approxSchedule" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Anticipated_Schedule" class="coursera-university-color"><span>Anticipated Schedule </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_the_Course_Staff" class="coursera-university-color"><span>About the Course Staff </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://www.surveymonkey.com/s/5NPGQRR?c=18f8cc45aa297f081faa9c948e6d091193aaaf11" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Coursera_Demographic_Survey" class="coursera-university-color"><span>Coursera Demographic Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/start?quiz_id=428" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Beginning_of_Course_Survey" class="coursera-university-color"><span>Beginning of Course Survey </span><span></span></a></li><li class="course-navbar-item"><a href="http://www.meetup.com/Coursera/" target="_blank" class="coursera-university-color">Join a Meetup<span class="icon-share"></span><span class="accessible-text-for-reader">opens in new browser tab</span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://courserahelp.zendesk.com/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Articles</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://class.coursera.org/proglang-003/forum/list?forum_id=10000&url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F11" class="coursera-university-color"><i class="icon-comments"></i>Course Materials Errors</a></li><li><a href="https://class.coursera.org/proglang-003/forum/list?forum_id=10001&url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F11" class="coursera-university-color"><i class="icon-comments"></i>Technical Issues</a></li></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;"><div id="main"><div id="AssessmentsLayout">
+<div id="hg-data" style="display: none">
+  <input id="hg-data-phase" type="hidden" value="grading">
+  <input id="hg-data-step" type="hidden" value="peerGrading">
+  <input id="hg-data-step-page" type="hidden" value="0">
+  <input id="hg-data-data" type="hidden" value="{&quot;submission_id&quot;:9346,&quot;evaluation_id&quot;:25256}">
+</div><a data-coursera-admin-helpwidget-link="data-coursera-admin-helpwidget-link" rel="help" href="https://class.coursera.org/mooc/help/peer" title="Peer Assessments" target="_blank" style="display:none;">Learn more</a>
+<div id="assessmentContainer" aria-live="polite" class="container-fluid">
+  <div id="assessmentNavigationRegion" class="navigationRegion"><div id="AssessmentNavigationView">
+<ul class="breadcrumb">
+  <li><a href="https://class.coursera.org/proglang-003/human_grading/">Peer Assessments</a></li>
+  <li><span class="divider">/</span>Homework 5 (in Section 6)</li><a target="_blank" href="https://accounts.coursera.org/i/zendesk/courserahelp?return_to=https://courserahelp.zendesk.com/hc" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." class="coursera-reporter-link">Help</a>
+</ul>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul id="hg-nav" class="nav">
+        <li id="hg-nav-phase-submitting" class="hg-nav-phase hg-nav-border-left hg-nav-border-right" data-hg-date-status="past">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-success">
+              <div class="bar" style="width: 100%;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-open" style="display: none;"><span data-livetimer-date-primitive="1415318400000" class="hg-date" data-livetimer-date-original="Thu  6 Nov 2014  4:00 PM PST" title="opened on Thu  6 Nov 2014  4:00 PM PST
+(3 weeks, 4 days ago)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">opened Thu  6 Nov 2014  4:00 PM PST</span><span class="livetimer-relative">opened 3wk 4d ago</span></span></div>
+              <div class="hg-asst-interval-part hg-asst-interval-close"><span data-livetimer-date-primitive="1416445200000" class="hg-date" data-livetimer-date-original="Wed 19 Nov 2014  5:00 PM PST" title="closed on Wed 19 Nov 2014  5:00 PM PST
+(1 week, 5 days ago)" data-hg-date-status="past" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">closed Wed 19 Nov 2014  5:00 PM PST</span><span class="livetimer-relative">closed 1wk 5d ago</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Submission Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-submitting" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/submissions" class="hg-internal" data-original-title=""><span class="step">1.</span><span>Do assignment</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other icon-check"></span></span></a></li>
+          </ul>
+        </li>
+        <li id="hg-nav-phase-grading" class="hg-nav-phase hg-nav-border-left hg-nav-border-right hg-phase-active hg-phase-relevant" data-hg-date-status="current">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-info">
+              <div class="bar" style="width: 85%;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-open" style="display: none;"><span data-livetimer-date-primitive="1416448800000" class="hg-date" data-livetimer-date-original="Wed 19 Nov 2014  6:00 PM PST" title="opened on Wed 19 Nov 2014  6:00 PM PST
+(1 week, 5 days ago)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">opened Wed 19 Nov 2014  6:00 PM PST</span><span class="livetimer-relative">opened 1wk 5d ago</span></span></div>
+              <div class="hg-asst-interval-part hg-asst-interval-close"><span data-livetimer-date-primitive="1417568400000" class="hg-date" data-livetimer-date-original="Tue  2 Dec 2014  5:00 PM PST" title="is due on Tue  2 Dec 2014  5:00 PM PST
+(in 1 day, 12 hours)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">due Tue  2 Dec 2014  5:00 PM PST</span><span class="livetimer-relative">due in 1day 12h</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Evaluation Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-peerGrading" class="hg-nav-step active"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets" class="hg-internal" data-original-title=""><span class="step">2.</span><span>Evaluate peers</span><span class="hg-nav-step-status hg-nav-step-status-select-todo"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other"></span></span></a></li>
+            <li id="hg-nav-step-selfGrading" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/selfGradingSets" class="hg-internal disabled" data-original-title="" disabled="disabled"><span class="step">3.</span><span>Self-evaluate</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other icon-lock"></span></span></a></li>
+          </ul>
+        </li>
+        <li id="hg-nav-phase-results" class="hg-nav-phase hg-nav-border-left hg-nav-border-right" data-hg-date-status="future">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-info">
+              <div class="bar" style="width: 0px;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-available"><span data-livetimer-date-primitive="1417572000000" class="hg-date" data-livetimer-date-original="Tue  2 Dec 2014  6:00 PM PST" title="available Tue  2 Dec 2014  6:00 PM PST
+(in 1 day, 13 hours)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">available Tue  2 Dec 2014  6:00 PM PST</span><span class="livetimer-relative">in 1day 13h</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Results Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-results" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/results/mine" class="hg-internal disabled" data-original-title="" disabled="disabled"><span class="step">4.</span><span>See results</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-other icon-lock"></span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div></div></div>
+  <div id="assessmentMessages"></div>
+  <div id="assessmentContentRegion" class="contentRegion"><div style="display: block;">
+<div class="returnLink"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989" class="hg-internal"><i class="icon-arrow-left"></i>&nbsp;Return to list</a></div>
+<!-- h1.assessmentTitle Homework 5 (in Section 6)-->
+<div id="assessmentForm">
+  <div id="topContentToolbar" class="contentToolbar form-actions">
+<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><a class="hg-internal btn" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/1"><i class="icon-step-forward"></i> Preview next submission</a>&nbsp;&nbsp;<div class="alert alert-info" style="display: inline-block; vertical-align: top">You are urged to preview the work of all 3 of your peers before you start submitting your required evaluations.<br><b>Remember</b> to click the "Submit Evaluation" button after <i>each</i> time that you fill out an evaluation.</div></div><div class="pull-left" style="text-align: left; clear: both"><div class="hg-peergrading-counter">3 remaining of 3 required evaluations</div></div><div class="pull-right"><button id="assessmentSave" class="hg-internal btn">Save draft</button><button id="assessmentSubmit" class="hg-internal btn btn-primary">Submit evaluation</button></div></div></div></div>
+  <div id="assessmentFormContent"><div class="evaluationForm"><div id="assessmentHead"><h1 class="assessmentTitle">Submission from: <span class="assessmentSubmissionAuthor">Student 1</span></h1><div id="forumThreadLinkSection"></div></div><div id="evaluatedGroup-c12746317e858a1" class="assessmentSection"><div class="assessmentExposition"><div class="assessmentText shrinkableBlock" dir="auto"><p>On this page, you will submit Homework 5 for peer assessment and assess submissions from some other students. Please follow the instructions carefully.</p>
+
+<p>For submission, follow these instructions (same as for previous homeworks):</p>
+<ul>
+    <li>
+        Click the "Attach a file" button below to upload your solutions file (just your solutions file, <i>not</i> your testing file).  This should, somewhat strangely, put the <i>name</i> of your file in the text box above the "Attach a file" button. This is correct behavior.  Do <i>not</i> paste file contents into the text box as this is unlikely to preserve indentation well.
+    </li>
+    <li>
+        Submit (or Re-submit) your assignment by clicking the big submit (or re-submit) button (after checking the Honor Code box).
+    </li>
+    <li>
+        You should see, "Your work was submitted. Review your work to make sure everything looks OK." Click on, "review your work."
+    </li>
+    <li>
+        You should see a box with the name of your file. Now you can click on this file name to get your solutions. They should appear formatted and indented exactly like the file you uploaded.  Depending on your browser, you may need to save the file and view it in a separate editor.
+    </li>
+</ul>
+
+<p>For assessing others' submissions, <b>first carefully read the instructions on  
+<a target="" href="https://class.coursera.org/proglang-003/human_grading/index">the main peer assessment page</a></b>. Then read the specific instructions for grading each problem.  Because the file you are downloading contains a program you did not write, follow general security precautions: Do not run the code without checking that it does no harmful things.  For completing peer assessment, you probably do not need to run the code at all since you are evaluating how the code is written.
+</p>
+
+<p><i>Remember to do at least as good a job as you hope others will do for your assignment.</i>
+</p></div></div></div><div class="sectionEvaluationGroup" data-evaluated="evaluatedGroup-c12746317e858a1"><div class="evaluationGroupHeader"><h3>Overall evaluation/feedback</h3></div><div class="assessmentExposition"><div class="assessmentText" dir="auto"><p>General instructions:</p>
+
+<ul>
+<li>Mutation, such as <tt>set!</tt> or <tt>set-mcar!</tt>, is generally poor style, so give at most a 3 to solutions using mutation.</li>
+</ul>
+
+<p>
+Remember this general description of the numeric scores:
+<br><br>
+<b>5</b>: This is a flawless or nearly flawless solution.  Everything in the
+code is there for a reason, it is easy to read, it is indented well,
+and it uses the appropriate language constructs from the course.  It
+is hard to imagine any correct solution being much simpler.
+
+<br><br>
+<b>4</b>: The code is very good style, but there are one or two places where
+there was a clearly better thing to do.  For example, maybe the
+student wrote "if e then true else false."  Or maybe there is an
+unnecessary case or a redundant computation.  Or the code
+is mostly nicely formatted, but one part was formatted badly.  You
+should be able to justify a 4 instead of a 5 by giving a specific
+place or two where there is something that is not as good as it could
+be.
+
+<br><br>
+<b>3</b>: The code is okay, but it is too difficult to read in some places because
+there are simpler ways to say the same thing.  Or maybe the student
+did not follow the instructions completely in terms of what language
+constructs to use or not use, but not in a way that made a huge
+difference.  A good way to think about a "3" score is that it is a "4"
+score where the list of issues is too long.
+
+<br><br>
+<b>2</b>: This code might be a correct solution, but it was very difficult to
+read.  There were many style problems.  The overall structure is not
+clear.  Or the solution is far more complicated or longer (e.g., 2-3
+times as long) as it needs to be.
+
+<br><br>
+<b>1</b>: This solution is too far away from a correct one to be reasonably
+graded.  Most or all cases are not handled correctly.  The homework
+was not really completed so the code for this problem is too short to
+be evaluated.
+</p></div></div></div><div id="evaluatedGroup-2b0578b39e13ae57" class="assessmentSection"><div id="evaluatedGroup-89d9ff6eecd36ef2" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-89d9ff6eecd36ef2" class="assessmentText" dir="auto">Follow the instructions above to upload a <tt>.rkt</tt> file containing your solutions.</div></div><div class="assessmentAnswer" aria-labelledby="assessmentText-89d9ff6eecd36ef2"><div class="assessmentText" dir="auto" data-bind="html submission.fields.beaa866f4a8893a3"><br><a href="https://s3.amazonaws.com/coursera-uploads/user-2b1a84dd58b4b47e0adb9c62/973301/asst-11/9e9129806ffd11e4af7cef45cad4b72c.rkt">hw5submitted</a><br></div><a target="_blank" href="https://class.coursera.org/proglang-003/help/flag?url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F11%2Fsubmissions%2F9346" class="course-peergrading-reporter-link">flag</a></div></div><div class="evaluationGroup" data-evaluated="evaluatedGroup-89d9ff6eecd36ef2"><div class="evaluationGroupHeader"><h3>Evaluation/feedback on the above work</h3></div><div id="evaluatedGroup-6c7992312ebe7eeb" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-6c7992312ebe7eeb" class="assessmentText" dir="auto">Problem 1: Here is a sample solution:
+<pre>(define (racketlist-&gt;mupllist xs)
+  (if (null? xs)
+      (aunit)
+      (apair (car xs) (racketlist-&gt;mupllist (cdr xs)))))
+
+(define (mupllist-&gt;racketlist xs)
+  (if (aunit? xs)
+      null
+      (cons (apair-e1 xs) (mupllist-&gt;racketlist (apair-e2 xs)))))
+</pre>
+
+<ul>
+    <li>It is unlikely that there are many ways to make solutions much longer or more complicated while having style as good as the sample solution, so mostly follow general guidelines.</li>
+    <li>Solutions using higher-order functions, such as <tt>foldl</tt> or <tt>foldr</tt> from Racket's standard library, can get a 5 if they are clear and concise.</li>
+    <li>Some students may have misinterpreted the problem as requiring recurring into nested lists (even though the problem said to presume the list contents were MUPL values and therefore shouldn't be changed). This can lead to more complicated and unnecessary
+        code, but from a style perspective, there is no need to give significant penalties if this is the only complication, so otherwise good solutions would probably deserve a 4.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-6c7992312ebe7eeb"><div id="4cca8504acddcf39-validationErrorMessage" class="validationErrorMessage"></div><div id="4cca8504acddcf39-validationErrorContainer"><select id="evaluationField-4cca8504acddcf39" data-modelbind="evaluation.fields.4cca8504acddcf39" aria-labelledby="assessmentText-6c7992312ebe7eeb" class="assessmentFormField">  <option value=""></option>  <option value="81d01d5645a6cb03">1</option>  <option value="122dfd5acf1cca6f">2</option>  <option value="eb25b6f4d808625a">3</option>  <option value="eef8c76be90ae9cc">4</option>  <option value="b17265d970545c8">5</option></select></div></div></div><div id="evaluatedGroup-8e44dcf1d24cb1a4" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-8e44dcf1d24cb1a4" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-8e44dcf1d24cb1a4"><div id="73eebd08a23b7e66-validationErrorMessage" class="validationErrorMessage"></div><div id="73eebd08a23b7e66-validationErrorContainer"><textarea dir="auto" id="textarea-73eebd08a23b7e66" data-modelbind="evaluation.fields.73eebd08a23b7e66" data-min-words="0" aria-labelledby="assessmentText-8e44dcf1d24cb1a4" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-73eebd08a23b7e66" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-33e961db7bc2b17c" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-33e961db7bc2b17c" class="assessmentText" dir="auto">For problem 2, we will break the assessment down into more manageable pieces. Here evaluate if their solution has the right overall structure of having one case for each kind of MUPL expression. Some helper functions outside the big <tt>cond</tt> expression are
+okay although the sample solution does not have any.
+<pre>(define (eval-under-env e env)
+  (cond [(var? e) ...]
+        [(int? e) ...]
+        [(add? e) ...]
+        [(ifgreater? e) ...]
+        [(fun? e) ...]
+        [(call? e) ...]
+        [(mlet? e) ...]
+        [(apair? e) ...]
+        [(fst? e) ...]
+        [(snd? e) ...]
+        [(aunit? e) ...]
+        [(isaunit? e) ...]
+        [(closure? e) ...]
+        [#t ...]))
+</pre>
+
+<ul>
+    <li>Give a 3 or a 4 to solutions that do not follow this structure depending on how clear the overall structure is.</li>
+    <li>The order of cases does not matter.</li>
+    <li>It is fine not to have the last <tt>#t</tt> case since we are assuming the input is a legal AST.</li>
+    <li>If other cases are missing but the structure is right, you can give a 5 here and take off in questions below about those cases.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-33e961db7bc2b17c"><div id="ed453441aab910c2-validationErrorMessage" class="validationErrorMessage"></div><div id="ed453441aab910c2-validationErrorContainer"><select id="evaluationField-ed453441aab910c2" data-modelbind="evaluation.fields.ed453441aab910c2" aria-labelledby="assessmentText-33e961db7bc2b17c" class="assessmentFormField">  <option value=""></option>  <option value="1402553a506ab5ed">1</option>  <option value="6ee0e47f55e72055">2</option>  <option value="150774c154771e5a">3</option>  <option value="69f616d67e0a7804">4</option>  <option value="78a7fb952bcd8a77">5</option></select></div></div></div><div id="evaluatedGroup-da34bdc835a698ff" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-da34bdc835a698ff" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-da34bdc835a698ff"><div id="6a724f185a18b92a-validationErrorMessage" class="validationErrorMessage"></div><div id="6a724f185a18b92a-validationErrorContainer"><textarea dir="auto" id="textarea-6a724f185a18b92a" data-modelbind="evaluation.fields.6a724f185a18b92a" data-min-words="0" aria-labelledby="assessmentText-da34bdc835a698ff" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-6a724f185a18b92a" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-68086122784badbe" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-68086122784badbe" class="assessmentText" dir="auto">Here assess the 5 very short cases:
+<pre>[(var? e)  (envlookup env (var-string e))]
+[(int? e) e]
+[(aunit? e) e]
+[(closure? e) e]
+[(fun? e) (closure env e)]
+</pre>
+
+<ul>
+    <li>The three cases for values should return the entire expression. Give a 4 for unnecessary copying of the value, like <tt>(int (int-num e))</tt>. Give at most a 3 and possibly a 2 for cases much more complicated than that. (If most cases are great, but, for
+        example, only the <tt>aunit</tt> case is worse, then that can average to a 4 or a 3.)</li>
+    <li>The <tt>var?</tt> case was given and should not be modified -- give at most a 3 to this question if it is not exactly this call to <tt>envlookup</tt>.</li>
+    <li>The <tt>fun?</tt> case is the most interesting here. Give at most a 4 if it is more complicated than <tt>(closure env e)</tt> and give at most a 3 for this problem if a function is returned instead of a closure or they do not return the entire function.</li>
+    <li>If the closure case is missing, do not penalize the solution because the auto-grader already did and it is disputable whether this case is needed (though the assignment specifically indicated to have it return the entire expression like for other
+        values).</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-68086122784badbe"><div id="f3021862d8c295b6-validationErrorMessage" class="validationErrorMessage"></div><div id="f3021862d8c295b6-validationErrorContainer"><select id="evaluationField-f3021862d8c295b6" data-modelbind="evaluation.fields.f3021862d8c295b6" aria-labelledby="assessmentText-68086122784badbe" class="assessmentFormField">  <option value=""></option>  <option value="ed03e18161c04ecd">1</option>  <option value="e09ca208cce7c87e">2</option>  <option value="5734273ab214ba62">3</option>  <option value="f009ec8ef7fb2d16">4</option>  <option value="c207d41152045485">5</option></select></div></div></div><div id="evaluatedGroup-86a9c37f432fa5f" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-86a9c37f432fa5f" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-86a9c37f432fa5f"><div id="8a543a9fd12a5ed-validationErrorMessage" class="validationErrorMessage"></div><div id="8a543a9fd12a5ed-validationErrorContainer"><textarea dir="auto" id="textarea-8a543a9fd12a5ed" data-modelbind="evaluation.fields.8a543a9fd12a5ed" data-min-words="0" aria-labelledby="assessmentText-86a9c37f432fa5f" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-8a543a9fd12a5ed" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-2ad6ed384b18b32b" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-2ad6ed384b18b32b" class="assessmentText" dir="auto">Here asses the cases for <tt>add</tt> and <tt>ifgreater</tt>.
+<pre>        [(add? e) 
+         (let ([v1 (eval-under-env (add-e1 e) env)]
+               [v2 (eval-under-env (add-e2 e) env)])
+           (if (and (int? v1)
+                    (int? v2))
+               (int (+ (int-num v1) 
+                       (int-num v2)))
+               (error "MUPL addition applied to non-number")))]
+        [(ifgreater? e) 
+         (let ([v1 (eval-under-env (ifgreater-e1 e) env)]
+               [v2 (eval-under-env (ifgreater-e2 e) env)])
+           (if (and (int? v1)
+                    (int? v2))
+               (if (&gt; (int-num v1) (int-num v2))
+                   (eval-under-env (ifgreater-e3 e) env)
+                   (eval-under-env (ifgreater-e4 e) env))
+               (error "MUPL ifgreater applied to non-number")))]
+</pre>
+<ul>
+    <li>The <tt>add</tt> case was provided and should not be modified. We include it here because it is similar and an interesting contrast to the <tt>ifgreater</tt> case. Give at most a 3 if <tt>add</tt> was changed unless it was somehow changed well to use helper functions used in
+        other cases.</li>
+    <li>For <tt>ifgreater</tt>, there are various fine ways to use <tt>let</tt>-expressions, but it is important that:
+        <ul>
+            <li><tt>e1</tt> and <tt>e2</tt> are evaluated exactly once</li>
+            <li>One of <tt>e3</tt> and <tt>e4</tt> are evaluated once and the other is evaluated zero times</li>
+        </ul>
+        Give at most a 3 if the expressions are not evaluated the correct number of times.
+    </li>
+    <li>Give at most a 4 if the case does not check correctly that the results of <tt>e1</tt> and <tt>e2</tt> are MUPL numbers.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-2ad6ed384b18b32b"><div id="2fb57eb94a435457-validationErrorMessage" class="validationErrorMessage"></div><div id="2fb57eb94a435457-validationErrorContainer"><select id="evaluationField-2fb57eb94a435457" data-modelbind="evaluation.fields.2fb57eb94a435457" aria-labelledby="assessmentText-2ad6ed384b18b32b" class="assessmentFormField">  <option value=""></option>  <option value="d0d0c44a70c3c74">1</option>  <option value="d84bfb778fde51a">2</option>  <option value="ac5f66224ca7df89">3</option>  <option value="78889d92452cd8b2">4</option>  <option value="7385874fe629b2e1">5</option></select></div></div></div><div id="evaluatedGroup-3e65b18af1d1156f" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-3e65b18af1d1156f" class="assessmentText" dir="auto">Feedback<br></div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-3e65b18af1d1156f"><div id="d7dc77e0933cb0-validationErrorMessage" class="validationErrorMessage"></div><div id="d7dc77e0933cb0-validationErrorContainer"><textarea dir="auto" id="textarea-d7dc77e0933cb0" data-modelbind="evaluation.fields.d7dc77e0933cb0" data-min-words="0" aria-labelledby="assessmentText-3e65b18af1d1156f" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-d7dc77e0933cb0" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-482055464ef7c4af" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-482055464ef7c4af" class="assessmentText" dir="auto">Here we assess the <tt>apair</tt> case:
+<pre>        [(apair? e)
+         (apair (eval-under-env (apair-e1 e) env)
+                (eval-under-env (apair-e2 e) env))]
+</pre>
+
+<ul>
+    <li>Using a <tt>let</tt>-expression to bind the results of the recursive calls is okay, but as the sample solution shows, it is not necessary.</li>
+    <li>Give at most a 4 if there is unnecessary error-checking: It is legal to make a MUPL pair out of any two MUPL values, so there is no dynamic type-checking in this case.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-482055464ef7c4af"><div id="2fcebd96fa2412a7-validationErrorMessage" class="validationErrorMessage"></div><div id="2fcebd96fa2412a7-validationErrorContainer"><select id="evaluationField-2fcebd96fa2412a7" data-modelbind="evaluation.fields.2fcebd96fa2412a7" aria-labelledby="assessmentText-482055464ef7c4af" class="assessmentFormField">  <option value=""></option>  <option value="e75f7c71fed3af57">1</option>  <option value="cabf78f56725874c">2</option>  <option value="e2b87f50ba137b8d">3</option>  <option value="e57e730efd61175">4</option>  <option value="ca1187d91930a7d7">5</option></select></div></div></div><div id="evaluatedGroup-88a2552e10612640" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-88a2552e10612640" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-88a2552e10612640"><div id="cee170a1ab73eaa-validationErrorMessage" class="validationErrorMessage"></div><div id="cee170a1ab73eaa-validationErrorContainer"><textarea dir="auto" id="textarea-cee170a1ab73eaa" data-modelbind="evaluation.fields.cee170a1ab73eaa" data-min-words="0" aria-labelledby="assessmentText-88a2552e10612640" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-cee170a1ab73eaa" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-a1516b6b4d8db208" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-a1516b6b4d8db208" class="assessmentText" dir="auto">Here we assess the <tt>fst</tt> and <tt>snd</tt> cases together because they are very similar.
+<pre>        [(fst? e)
+         (let ([pr (eval-under-env (fst-e e) env)])
+           (if (apair? pr)
+               (apair-e1 pr)
+               (error "MUPL fst applied to non-apair")))]
+        [(snd? e)
+         (let ([pr (eval-under-env (snd-e e) env)])
+           (if (apair? pr)
+               (apair-e2 pr)
+               (error "MUPL snd applied to non-pair")))]
+</pre>
+
+<ul>
+    <li>Deduct at least one point (i.e., from a 5 to a 4 or from a 4 to a 3, etc.) if the interpreter is called more than once on the subexpression. Getting this right requires some form of <tt>let</tt>-expression or local define. (Deduct only one point total even
+        if the <tt>fst</tt> and <tt>snd</tt> cases make the same mistake, <i>not</i> one point for each case.)
+    </li>
+    <li>Deduct at least one point if the case does not check that the recursive result is a MUPL pair (using <tt>apair?</tt>). (Deduct only one point total even if the <tt>fst</tt> and <tt>snd</tt> cases make the same mistake.)</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-a1516b6b4d8db208"><div id="368626cc5aa1ee5-validationErrorMessage" class="validationErrorMessage"></div><div id="368626cc5aa1ee5-validationErrorContainer"><select id="evaluationField-368626cc5aa1ee5" data-modelbind="evaluation.fields.368626cc5aa1ee5" aria-labelledby="assessmentText-a1516b6b4d8db208" class="assessmentFormField">  <option value=""></option>  <option value="7e032ab655ea3f36">1</option>  <option value="ea0ac9077ead475">2</option>  <option value="d2567e781c47d8bb">3</option>  <option value="5bc535b7c9dc761c">4</option>  <option value="6b0fa0ca7e8e2520">5</option></select></div></div></div><div id="evaluatedGroup-a21a5041a8614c18" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-a21a5041a8614c18" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-a21a5041a8614c18"><div id="365899553e636bb-validationErrorMessage" class="validationErrorMessage"></div><div id="365899553e636bb-validationErrorContainer"><textarea dir="auto" id="textarea-365899553e636bb" data-modelbind="evaluation.fields.365899553e636bb" data-min-words="0" aria-labelledby="assessmentText-a21a5041a8614c18" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-365899553e636bb" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-951ee641330a55cc" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-951ee641330a55cc" class="assessmentText" dir="auto">Here we assess the <tt>isaunit</tt> case:
+<pre>        [(isaunit? e)
+         (let ([v (eval-under-env (isaunit-e e) env)])
+           (if (aunit? v) (int 1) (int 0)))]
+</pre>
+
+<ul>
+    <li>Although the sample solution uses a <tt>let</tt>-expression, it is not needed in this case.</li>
+    <li>Deduct a point if any dynamic type-checking is done. This is not correct because <tt>isaunit</tt> can be used with any kind of MUPL value.</li>
+    <li>To give a sense of alternate solutions, this would also be fine:
+        <br><tt>(int (if (aunit? (eval-under-env (isaunit-e e) env)) 1 0))</tt></li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-951ee641330a55cc"><div id="380ac7725a30cc61-validationErrorMessage" class="validationErrorMessage"></div><div id="380ac7725a30cc61-validationErrorContainer"><select id="evaluationField-380ac7725a30cc61" data-modelbind="evaluation.fields.380ac7725a30cc61" aria-labelledby="assessmentText-951ee641330a55cc" class="assessmentFormField">  <option value=""></option>  <option value="afce1d99fe89740">1</option>  <option value="8883efe7b3efa785">2</option>  <option value="cfd47fc41e9fdd0b">3</option>  <option value="4dfbfc5aa502b8">4</option>  <option value="b0731da6c4a8d52b">5</option></select></div></div></div><div id="evaluatedGroup-bba21278e188f10" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-bba21278e188f10" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-bba21278e188f10"><div id="5a7015fedd9b2a6e-validationErrorMessage" class="validationErrorMessage"></div><div id="5a7015fedd9b2a6e-validationErrorContainer"><textarea dir="auto" id="textarea-5a7015fedd9b2a6e" data-modelbind="evaluation.fields.5a7015fedd9b2a6e" data-min-words="0" aria-labelledby="assessmentText-bba21278e188f10" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-5a7015fedd9b2a6e" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-87fb165190d794ee" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-87fb165190d794ee" class="assessmentText" dir="auto">Here we assess the <tt>mlet</tt> case:
+<pre>        [(mlet? e) 
+         (let* ([v (eval-under-env (mlet-e e) env)]
+                [newenv (cons (cons (mlet-var e) v) env)]) 
+           (eval-under-env (mlet-body e) newenv))]
+</pre>
+
+<ul>
+    <li>A <tt>let</tt>-expression is not needed here, but do make sure there are exactly two recursive calls to <tt>eval-under-env</tt>.</li>
+    <li>Creating the new environment should not be complicated: make sure it is clear that one pair (of <tt>(mlet-var e)</tt> and the result of evaluating <tt>(mlet-e e)</tt> under <tt>env</tt>) is consed onto <tt>env</tt>.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-87fb165190d794ee"><div id="b874ef667109a05-validationErrorMessage" class="validationErrorMessage"></div><div id="b874ef667109a05-validationErrorContainer"><select id="evaluationField-b874ef667109a05" data-modelbind="evaluation.fields.b874ef667109a05" aria-labelledby="assessmentText-87fb165190d794ee" class="assessmentFormField">  <option value=""></option>  <option value="9f0bb531fdc1e2f">1</option>  <option value="5a90e468a431654e">2</option>  <option value="a957c378b5d786f">3</option>  <option value="e66497cd6d772fe3">4</option>  <option value="97ee2087ee842166">5</option></select></div></div></div><div id="evaluatedGroup-1245608fd4bd80b0" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-1245608fd4bd80b0" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-1245608fd4bd80b0"><div id="a1677b1ef96043a-validationErrorMessage" class="validationErrorMessage"></div><div id="a1677b1ef96043a-validationErrorContainer"><textarea dir="auto" id="textarea-a1677b1ef96043a" data-modelbind="evaluation.fields.a1677b1ef96043a" data-min-words="0" aria-labelledby="assessmentText-1245608fd4bd80b0" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-a1677b1ef96043a" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-ce1275616a4bffe" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-ce1275616a4bffe" class="assessmentText" dir="auto">Here we asses the most interesting case, the <tt>call</tt> case:
+<pre>        [(call? e)
+         (let ([cl  (eval-under-env (call-funexp e) env)]
+               [arg (eval-under-env (call-actual e) env)])
+           (if (closure? cl)
+               (let* ([fn (closure-fun cl)]
+                      [bodyenv (cons (cons (fun-formal fn) arg)
+                                     (closure-env cl))]
+                      [bodyenv (if (fun-nameopt fn)
+                                   (cons (cons (fun-nameopt fn) cl)
+                                         bodyenv)
+                                   bodyenv)])
+                 (eval-under-env (fun-body fn) bodyenv))
+               (error "MUPL function call with nonfunction")))]
+</pre>
+
+<ul>
+    <li>Deduct a point if there is not a clear check that the result of recursively evaluating <tt>(call-funexp e)</tt> is a closure.</li>
+    <li>Deduct at least a point if there are not clearly exactly three total recursive calls to <tt>eval-under-env</tt>. (It is fine if more calls appear in the code, for example separate calls for when the function being called has a name for recursion or not, but
+        exactly three should be evaluated any time this case is evaluated.)</li>
+    <li>Deduct a point if the code always adds the <tt>fun-nameopt</tt> field to the environment even when it is <tt>#f</tt>. (This may likely work due to Racket's dynamic typing, but it is poor style to have non-strings in the environment.)</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-ce1275616a4bffe"><div id="542f4a7e7859ec72-validationErrorMessage" class="validationErrorMessage"></div><div id="542f4a7e7859ec72-validationErrorContainer"><select id="evaluationField-542f4a7e7859ec72" data-modelbind="evaluation.fields.542f4a7e7859ec72" aria-labelledby="assessmentText-ce1275616a4bffe" class="assessmentFormField">  <option value=""></option>  <option value="465a8013c9ceead">1</option>  <option value="d6b96d647c755d93">2</option>  <option value="c9175f1fd787e6eb">3</option>  <option value="ab39289a3642240b">4</option>  <option value="4763cea9754720b2">5</option></select></div></div></div><div id="evaluatedGroup-11d6b2b85622603" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-11d6b2b85622603" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-11d6b2b85622603"><div id="190055a9d643c5-validationErrorMessage" class="validationErrorMessage"></div><div id="190055a9d643c5-validationErrorContainer"><textarea dir="auto" id="textarea-190055a9d643c5" data-modelbind="evaluation.fields.190055a9d643c5" data-min-words="0" aria-labelledby="assessmentText-11d6b2b85622603" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-190055a9d643c5" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-7afb82f256133591" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-7afb82f256133591" class="assessmentText" dir="auto">Problem 3a: Here is a sample solution:
+<pre>(define (ifaunit e1 e2 e3) (ifgreater (isaunit e1) (int 0) e2 e3))
+</pre>
+
+<ul>
+    <li>Give a 3 or a 4 for more complicated solutions. Give at most a 3 if the solution uses any Racket constructs like <tt>if</tt> that are not needed here.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-7afb82f256133591"><div id="dde727fbb1d3955f-validationErrorMessage" class="validationErrorMessage"></div><div id="dde727fbb1d3955f-validationErrorContainer"><select id="evaluationField-dde727fbb1d3955f" data-modelbind="evaluation.fields.dde727fbb1d3955f" aria-labelledby="assessmentText-7afb82f256133591" class="assessmentFormField">  <option value=""></option>  <option value="91f8ebfc55ff887d">1</option>  <option value="31ca632d6cdb637">2</option>  <option value="ac9b108b4f5b8456">3</option>  <option value="4d578f93680dd274">4</option>  <option value="4d2290b982b45ab">5</option></select></div></div></div><div id="evaluatedGroup-dce50f7d5e7a43e" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-dce50f7d5e7a43e" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-dce50f7d5e7a43e"><div id="a6d392df667bbe4-validationErrorMessage" class="validationErrorMessage"></div><div id="a6d392df667bbe4-validationErrorContainer"><textarea dir="auto" id="textarea-a6d392df667bbe4" data-modelbind="evaluation.fields.a6d392df667bbe4" data-min-words="0" aria-labelledby="assessmentText-dce50f7d5e7a43e" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-a6d392df667bbe4" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-e0dbcf6572c2e26f" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-e0dbcf6572c2e26f" class="assessmentText" dir="auto">Problem 3b: Here is a sample solution:
+<pre>(define (mlet* bs e2) 
+  (cond [(null? bs) e2]
+        [#t (mlet (car (car bs)) (cdr (car bs))
+                  (mlet* (cdr bs) e2))]))
+</pre>
+
+<ul>
+    <li>Give at most a 3 for a solution that is not clearly using recursion to create nested <tt>let</tt>-expressions. However, a solution using a library function like <tt>foldr</tt> to do the recursion is great and can earn a 5.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-e0dbcf6572c2e26f"><div id="ed70b1a32416627f-validationErrorMessage" class="validationErrorMessage"></div><div id="ed70b1a32416627f-validationErrorContainer"><select id="evaluationField-ed70b1a32416627f" data-modelbind="evaluation.fields.ed70b1a32416627f" aria-labelledby="assessmentText-e0dbcf6572c2e26f" class="assessmentFormField">  <option value=""></option>  <option value="101ebc8f2c38e785">1</option>  <option value="b6c63a4c4e5170b0">2</option>  <option value="bc183cb6950fe8bf">3</option>  <option value="4ced3d1325da1fb9">4</option>  <option value="f647c313ceba49aa">5</option></select></div></div></div><div id="evaluatedGroup-26bb7acfbaf8ec16" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-26bb7acfbaf8ec16" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-26bb7acfbaf8ec16"><div id="27a2beb3635195-validationErrorMessage" class="validationErrorMessage"></div><div id="27a2beb3635195-validationErrorContainer"><textarea dir="auto" id="textarea-27a2beb3635195" data-modelbind="evaluation.fields.27a2beb3635195" data-min-words="0" aria-labelledby="assessmentText-26bb7acfbaf8ec16" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-27a2beb3635195" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-62164166380a08c" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-62164166380a08c" class="assessmentText" dir="auto">Problem 3c: Here is a sample solution:
+<pre>(define (ifeq e1 e2 e3 e4) 
+  (mlet "_x" e1
+        (mlet "_y" e2
+              (ifgreater (var "_x") (var "_y")
+                         e4
+                         (ifgreater (var "_y") (var "_x")
+                                    e4
+                                    e3)))))
+</pre>
+
+<ul>
+    <li>Deduct a point for a solution that does not clearly use two <tt>ifgreater</tt> expressions.</li>
+    <li>Deduct a point for a solution that does not use <tt>mlet</tt> to avoid repeated computation.</li>
+    <li>Deduct a point for a solution that uses unnecessary Racket computations, such as a Racket conditional.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-62164166380a08c"><div id="869c6867b4187e1a-validationErrorMessage" class="validationErrorMessage"></div><div id="869c6867b4187e1a-validationErrorContainer"><select id="evaluationField-869c6867b4187e1a" data-modelbind="evaluation.fields.869c6867b4187e1a" aria-labelledby="assessmentText-62164166380a08c" class="assessmentFormField">  <option value=""></option>  <option value="7306777cb98ff97">1</option>  <option value="30aaf9b53c48a83">2</option>  <option value="ab6d706be7264657">3</option>  <option value="27b52f42f8805fb0">4</option>  <option value="530637cad7dae992">5</option></select></div></div></div><div id="evaluatedGroup-2c42ad132e572af" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-2c42ad132e572af" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-2c42ad132e572af"><div id="d53ccb87d9e5b780-validationErrorMessage" class="validationErrorMessage"></div><div id="d53ccb87d9e5b780-validationErrorContainer"><textarea dir="auto" id="textarea-d53ccb87d9e5b780" data-modelbind="evaluation.fields.d53ccb87d9e5b780" data-min-words="0" aria-labelledby="assessmentText-2c42ad132e572af" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-d53ccb87d9e5b780" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-13d7bb833b20bed7" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-13d7bb833b20bed7" class="assessmentText" dir="auto">Problem 4a: Here is a sample solution:
+<pre>  (fun "map" "f"
+       (fun #f "xs"
+            (ifaunit (var "xs")
+                     (aunit)
+                     (apair (call (var "f") (fst (var "xs")))
+                            (call (call (var "map") (var "f"))
+                                  (snd (var "xs"))))))))
+</pre>
+
+<ul>
+    <li>Another fine, arguably better, approach is to give a name to the inner function (e.g., <tt>g</tt> in place of <tt>#f</tt>) and then replace <tt>(call (var "map") (var "f"))</tt> with a call to the inner function (e.g., <tt>(var "g")</tt>).</li>
+    <li>Generally check that the solution looks like a MUPL program implementing the map function we have now seen many times.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-13d7bb833b20bed7"><div id="cc325e8f668fdcba-validationErrorMessage" class="validationErrorMessage"></div><div id="cc325e8f668fdcba-validationErrorContainer"><select id="evaluationField-cc325e8f668fdcba" data-modelbind="evaluation.fields.cc325e8f668fdcba" aria-labelledby="assessmentText-13d7bb833b20bed7" class="assessmentFormField">  <option value=""></option>  <option value="ada38bc468cd24b8">1</option>  <option value="785c0fb6eff3caf">2</option>  <option value="8a585619155c225f">3</option>  <option value="f323d28d2bc9b357">4</option>  <option value="780f431fbeba9b3a">5</option></select></div></div></div><div id="evaluatedGroup-dbf495e1f7feecea" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-dbf495e1f7feecea" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-dbf495e1f7feecea"><div id="244e331a9d098f0f-validationErrorMessage" class="validationErrorMessage"></div><div id="244e331a9d098f0f-validationErrorContainer"><textarea dir="auto" id="textarea-244e331a9d098f0f" data-modelbind="evaluation.fields.244e331a9d098f0f" data-min-words="0" aria-labelledby="assessmentText-dbf495e1f7feecea" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-244e331a9d098f0f" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-afef3eace478164b" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-afef3eace478164b" class="assessmentText" dir="auto">Problem 4b: Here is a sample solution:
+<pre>(define mupl-mapAddN
+  (mlet "map" mupl-map 
+        (fun #f "x"
+             (call (var "map") (fun #f "y" 
+                                    (add (var "x") (var "y")))))))
+</pre>
+
+<ul>
+    <li>There are not too many ways to do this problem: We need a call to the <tt>map</tt> function defined in 4a with an appropriate function.</li>
+    <li>It is okay (and can earn a 5) if the solution gives names for recursion to functions that do not need them (i.e., replace the uses of <tt>#f</tt> above with strings).</li>
+    <li>It is okay if the solution uses more occurrences of <tt>mlet</tt> even though they are not needed.</li>
+    <li>Remember that you are grading on general style, not how close to the sample solution a student solution is. It is perfectly fine for a solution to be significantly different from the sample, as long as it has good style.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-afef3eace478164b"><div id="a2523da41815eb42-validationErrorMessage" class="validationErrorMessage"></div><div id="a2523da41815eb42-validationErrorContainer"><select id="evaluationField-a2523da41815eb42" data-modelbind="evaluation.fields.a2523da41815eb42" aria-labelledby="assessmentText-afef3eace478164b" class="assessmentFormField">  <option value=""></option>  <option value="ffaaafff60eca22a">1</option>  <option value="9b3a8c95cafb71">2</option>  <option value="da9ca65e90a8308a">3</option>  <option value="53864bd33f3f88b2">4</option>  <option value="6ecf9ddea275eed5">5</option></select></div></div></div><div id="evaluatedGroup-8e683540e61b43" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-8e683540e61b43" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-8e683540e61b43"><div id="7187b4571fa92506-validationErrorMessage" class="validationErrorMessage"></div><div id="7187b4571fa92506-validationErrorContainer"><textarea dir="auto" id="textarea-7187b4571fa92506" data-modelbind="evaluation.fields.7187b4571fa92506" data-min-words="0" aria-labelledby="assessmentText-8e683540e61b43" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-7187b4571fa92506" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-4307bcd62fe6517a" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-4307bcd62fe6517a" class="assessmentText" dir="auto">You do not need to assess the challenge problem, but you are welcome to provide any feedback for it here. Here is a sample solution for it (where have elided all the interpreter cases that are the same except they replace <tt>eval-under-env</tt> with <tt>eval-under-env-c</tt>:
+<pre>(define (compute-free-vars e)
+  (struct res (e fvs)) ; result type of f (could also use a pair)
+    (define (f e) 
+    (cond [(var? e) (res e (set (var-string e)))]
+          [(int? e) (res e (set))]
+          [(add? e) (let ([r1 (f (add-e1 e))]
+                          [r2 (f (add-e2 e))])
+                      (res (add (res-e r1) (res-e r2))
+                           (set-union (res-fvs r1) (res-fvs r2))))]
+          [(ifgreater? e) (let ([r1 (f (ifgreater-e1 e))]
+                                [r2 (f (ifgreater-e2 e))]
+                                [r3 (f (ifgreater-e3 e))]
+                                [r4 (f (ifgreater-e4 e))])
+                            (res (ifgreater (res-e r1) (res-e r2) (res-e r3) (res-e r4))
+                                 (set-union (res-fvs r1) (res-fvs r2) (res-fvs r3) (res-fvs r4))))]
+          [(fun? e) (let* ([r (f (fun-body e))]
+                           [fvs (set-remove (res-fvs r) (fun-formal e))]
+                           [fvs (if (fun-nameopt e) (set-remove fvs (fun-nameopt e)) fvs)])
+                      (res (fun-challenge (fun-nameopt e) (fun-formal e) (res-e r) fvs)
+                           fvs))]
+          [(call? e) (let ([r1 (f (call-funexp e))]
+                           [r2 (f (call-actual e))])
+                      (res (call (res-e r1) (res-e r2))
+                           (set-union (res-fvs r1) (res-fvs r2))))]
+          [(mlet? e) (let* ([r1 (f (mlet-e e))]
+                            [r2 (f (mlet-body e))])
+                       (res (mlet (mlet-var e) (res-e r1) (res-e r2))
+                            (set-union (res-fvs r1) (set-remove (res-fvs r2) (mlet-var e)))))]
+          [(apair? e) (let ([r1 (f (apair-e1 e))]
+                            [r2 (f (apair-e2 e))])
+                      (res (apair (res-e r1) (res-e r2))
+                           (set-union (res-fvs r1) (res-fvs r2))))]
+          [(fst? e) (let ([r (f (fst-e e))])
+                      (res (fst (res-e r))
+                           (res-fvs r)))]
+          [(snd? e) (let ([r (f (snd-e e))])
+                      (res (snd (res-e r))
+                           (res-fvs r)))]
+          [(aunit? e) (res e (set))]
+          [(isaunit? e) (let ([r (f (isaunit-e e))])
+                          (res (isaunit (res-e r))
+                               (res-fvs r)))]))
+  (res-e (f e)))
+                      
+(define (eval-under-env-c e env) 
+  (cond 
+        [(fun-challenge? e)
+         (closure (set-map (fun-challenge-freevars e)
+                           (lambda (s) (cons s (envlookup env s))))
+                  e)]
+         ; call case uses fun-challenge as appropriate
+         ; all other cases the same
+        ...)
+
+(define (eval-exp-c e)
+  (eval-under-env-c (compute-free-vars e) null))
+</pre>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-4307bcd62fe6517a"><div id="b1084c96a7e5cb63-validationErrorMessage" class="validationErrorMessage"></div><div id="b1084c96a7e5cb63-validationErrorContainer"><textarea dir="auto" id="textarea-b1084c96a7e5cb63" data-modelbind="evaluation.fields.b1084c96a7e5cb63" data-min-words="0" aria-labelledby="assessmentText-4307bcd62fe6517a" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-b1084c96a7e5cb63" style="color: black;">You've written 0 words</span></div></div></div></div></div></div><div class="sectionEvaluationGroup" data-evaluated="evaluatedGroup-2b0578b39e13ae57"><div class="evaluationGroupHeader"><h3>Overall evaluation/feedback</h3></div><div id="evaluatedGroup-f47e1711f1b55bc" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-f47e1711f1b55bc" class="assessmentText" dir="auto">Overall Feedback: Put any general feedback not specific to individual problems here.  This is optional.</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-f47e1711f1b55bc"><div id="b67598b4bb3e0f5-validationErrorMessage" class="validationErrorMessage"></div><div id="b67598b4bb3e0f5-validationErrorContainer"><textarea dir="auto" id="textarea-b67598b4bb3e0f5" data-modelbind="evaluation.fields.b67598b4bb3e0f5" data-min-words="0" aria-labelledby="assessmentText-f47e1711f1b55bc" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-b67598b4bb3e0f5" style="color: black;">You've written 0 words</span></div></div></div></div></div> </div></div>
+  <div id="bottomContentToolbar" class="contentToolbar form-actions">
+<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><a class="hg-internal btn" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/11/peerGradingSets/6989/peerGradings/1"><i class="icon-step-forward"></i> Preview next submission</a>&nbsp;&nbsp;<div class="alert alert-info" style="display: inline-block; vertical-align: top">You are urged to preview the work of all 3 of your peers before you start submitting your required evaluations.<br><b>Remember</b> to click the "Submit Evaluation" button after <i>each</i> time that you fill out an evaluation.</div></div><div class="pull-left" style="text-align: left; clear: both"><div class="hg-peergrading-counter">3 remaining of 3 required evaluations</div></div><div class="pull-right"><button id="assessmentSave" class="hg-internal btn">Save draft</button><button id="assessmentSubmit" class="hg-internal btn btn-primary">Submit evaluation</button></div></div></div></div>
+</div>
+<div class="coursera-signature-modal"></div></div></div>
+</div></div></div>
+
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./hw5_sample_solutions_files/modernizr-custom.js"></script>
+  <script src="./hw5_sample_solutions_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/ff9ade4508869acff52b87f1c9f2cc59fc079a16/" data-version="ff9ade4508869acff52b87f1c9f2cc59fc079a16" data-timestamp="1417197031170" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/hg/js/app/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8585290,\"email_address\":\"pmengguan@gmail.com\",\"full_name\":\"Pan Mengguan\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1407939490\",\"last_access_time\":\"1417344537\",\"last_access_ip\":\"61.150.43.121\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Pan\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"212\",\"250\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":973301,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Programming Languages\",\"instructor\":\"Dan  Grossman\",\"sessionName\":\"proglang-003\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"proglang\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":\"\",\"linkable\":false,\"universityShortname\":\"uw\",\"signatureTrackStatus\":{\"signature_track_enabled\":1},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signin?post_redirect=https%3A%2F%2Faccounts.coursera.org%2Fsignin%3Fuser_action%3Dclass%26course_id%3D973301%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fproglang-003%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?enroll_cid=973301&enroll_sn=proglang&enroll_n=Programming Languages\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/proglang\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fproglang\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/\",\"search\":true,\"hideWiki\":true,\"hideMeetup\":false,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":\"\",\"aceExamDuration\":\"\",\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":\"\",\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":true,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":0,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":\"\",\"honorCodeCustomButton\":\"\",\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home \\\/ Announcements\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Videos and Reading Notes\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"Programming Assignments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"assignment:index\"},{\"name\":\"Peer Assessments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"human_grading:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Exams\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=exam\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"About the Course\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"Course Logistics \\\/ Policies\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Software Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"SoftwareInstallation\"},{\"name\":\"Anticipated Schedule\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"approxSchedule\"},{\"name\":\"About the Course Staff\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Coursera Demographic Survey\",\"icon\":\"\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/www.surveymonkey.com\\\/s\\\/5NPGQRR?c=18f8cc45aa297f081faa9c948e6d091193aaaf11\"},{\"name\":\"Beginning of Course Survey\",\"icon\":\"wiki\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/quiz\\\/start?quiz_id=428\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div></body></html>

@@ -1,0 +1,14 @@
+#lang racket
+
+(provide (all-defined-out))
+
+(define-syntax let2
+  (syntax-rules ()
+    [(let2 () body)
+     body]
+    [(let2 (var val) body)
+     (let ([var val]) body)]
+    [(let2 (var1 val1 var2 val2))
+     (let ([var1 val1])
+       (let ([var2 val2])
+         body))]))

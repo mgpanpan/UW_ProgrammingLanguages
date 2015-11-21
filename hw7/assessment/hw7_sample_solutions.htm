@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!-- saved from url=(0124)https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/0 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg polyfill-important"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta charset="utf-8"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Programming Languages | Coursera</title>    <link rel="stylesheet" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/shims/styles/shim.css"><link href="./hw7_sample_solutions_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./hw7_sample_solutions_files/course.css" rel="stylesheet" type="text/css">
+      <link href="./hw7_sample_solutions_files/hg.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/proglang/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./hw7_sample_solutions_files/MathJax.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/hg/js/app/routes" src="./hw7_sample_solutions_files/routes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./hw7_sample_solutions_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./hw7_sample_solutions_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./hw7_sample_solutions_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/catalogApi" src="./hw7_sample_solutions_files/catalogApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./hw7_sample_solutions_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./hw7_sample_solutions_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" src="./hw7_sample_solutions_files/LearnerStoriesCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./hw7_sample_solutions_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/util/abUtils" src="./hw7_sample_solutions_files/abUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./hw7_sample_solutions_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./hw7_sample_solutions_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./hw7_sample_solutions_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/analytics/models/LearnerStoryModel" src="./hw7_sample_solutions_files/LearnerStoryModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./hw7_sample_solutions_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./hw7_sample_solutions_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./hw7_sample_solutions_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./hw7_sample_solutions_files/sidebar(1).js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="shims/form-core.js" src="./hw7_sample_solutions_files/form-core.js"></script></head><body><div id="MathJax_Message" style="display: none;"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://courserahelp.zendesk.com/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/fea521863c19547fe5c7be8e15acfb601693f0be/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div role="menubar" class="coursera-header"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Programming Languages</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="8585290">Pan Mengguan<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/proglang-003/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><a href="https://class.coursera.org/proglang-003/auth/logout" class="course-topbar-sublist-item">Sign Out</a></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/uw" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/uw" class="coursera-university-color"><img src="./hw7_sample_solutions_files/university_logo" alt="uw"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/proglang-003/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Programming Languages</a><br><span style="" class="course-topbanner-instructor">by Dan  Grossman</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div role="menubar" class="coursera-sidebar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/proglang-003" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="./hw7_sample_solutions_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="https://class.coursera.org/proglang-003/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" type="text" name="q" data-js-search-input="data-js-search-input">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item in-class-qqs-tab"><a href="https://class.coursera.org/proglang-003/questions" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_" class="coursera-university-color"><span>Quick Questions</span><span></span><span class="in-class-qqs-number-display">15</span></a><div class="in-class-qqs-announcement"></div></li><li class="course-navbar-item in-class-qqs-tab"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home_/_Announcements" class="coursera-university-color"><span>Home / Announcements </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Videos_and_Reading_Notes" class="coursera-university-color"><span>Videos and Reading Notes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Programming_Assignments" class="coursera-university-color"><span>Programming Assignments </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/human_grading/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Peer_Assessments" class="coursera-university-color"><span>Peer Assessments </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/index?quiz_type=exam" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Exams" class="coursera-university-color"><span>Exams </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_the_Course" class="coursera-university-color"><span>About the Course </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics_/_Policies" class="coursera-university-color"><span>Course Logistics / Policies </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/SoftwareInstallation" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Software_Installation" class="coursera-university-color"><span>Software Installation </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/approxSchedule" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Anticipated_Schedule" class="coursera-university-color"><span>Anticipated Schedule </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_the_Course_Staff" class="coursera-university-color"><span>About the Course Staff </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://www.surveymonkey.com/s/5NPGQRR?c=18f8cc45aa297f081faa9c948e6d091193aaaf11" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Coursera_Demographic_Survey" class="coursera-university-color"><span>Coursera Demographic Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/start?quiz_id=428" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Beginning_of_Course_Survey" class="coursera-university-color"><span>Beginning of Course Survey </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/start?quiz_id=414" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_End-Of-Course_Survey_for_Course_Completers" class="coursera-university-color"><span>End-Of-Course Survey for Course Completers </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/proglang-003/quiz/start?quiz_id=416" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_End-Of-Course_Survey_for_Non-Course-Completers" class="coursera-university-color"><span>End-Of-Course Survey for Non-Course-Completers </span><span></span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://courserahelp.zendesk.com/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Articles</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://class.coursera.org/proglang-003/forum/list?forum_id=10000&url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F13" class="coursera-university-color"><i class="icon-comments"></i>Course Materials Errors</a></li><li><a href="https://class.coursera.org/proglang-003/forum/list?forum_id=10001&url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F13" class="coursera-university-color"><i class="icon-comments"></i>Technical Issues</a></li></ul></div></div></div></div><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;"><div id="main"><div id="AssessmentsLayout">
+<div id="hg-data" style="display: none">
+  <input id="hg-data-phase" type="hidden" value="grading">
+  <input id="hg-data-step" type="hidden" value="peerGrading">
+  <input id="hg-data-step-page" type="hidden" value="0">
+  <input id="hg-data-data" type="hidden" value="{&quot;submission_id&quot;:11217,&quot;evaluation_id&quot;:33466}">
+</div><a data-coursera-admin-helpwidget-link="data-coursera-admin-helpwidget-link" rel="help" href="https://class.coursera.org/mooc/help/peer" title="Peer Assessments" target="_blank" style="display:none;">Learn more</a>
+<div id="assessmentContainer" aria-live="polite" class="container-fluid">
+  <div id="assessmentNavigationRegion" class="navigationRegion"><div id="AssessmentNavigationView">
+<ul class="breadcrumb">
+  <li><a href="https://class.coursera.org/proglang-003/human_grading/">Peer Assessments</a></li>
+  <li><span class="divider">/</span>Homework 7 (in Section 8)</li><a target="_blank" href="https://accounts.coursera.org/i/zendesk/courserahelp?return_to=https://courserahelp.zendesk.com/hc" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." class="coursera-reporter-link">Help</a>
+</ul>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul id="hg-nav" class="nav">
+        <li id="hg-nav-phase-submitting" class="hg-nav-phase hg-nav-border-left hg-nav-border-right" data-hg-date-status="past">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-success">
+              <div class="bar" style="width: 100%;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-open" style="display: none;"><span data-livetimer-date-primitive="1416528000000" class="hg-date" data-livetimer-date-original="Thu 20 Nov 2014  4:00 PM PST" title="opened on Thu 20 Nov 2014  4:00 PM PST
+(3 weeks, 2 days ago)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">opened Thu 20 Nov 2014  4:00 PM PST</span><span class="livetimer-relative">opened 3wk 2d ago</span></span></div>
+              <div class="hg-asst-interval-part hg-asst-interval-close"><span data-livetimer-date-primitive="1417827600000" class="hg-date" data-livetimer-date-original="Fri  5 Dec 2014  5:00 PM PST" title="closed on Fri  5 Dec 2014  5:00 PM PST
+(1 week, 1 day ago)" data-hg-date-status="past" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">closed Fri  5 Dec 2014  5:00 PM PST</span><span class="livetimer-relative">closed 1wk 1d ago</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Submission Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-submitting" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/submissions" class="hg-internal" data-original-title=""><span class="step">1.</span><span>Do assignment</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other icon-check"></span></span></a></li>
+          </ul>
+        </li>
+        <li id="hg-nav-phase-grading" class="hg-nav-phase hg-nav-border-left hg-nav-border-right hg-phase-active hg-phase-relevant" data-hg-date-status="current">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-info">
+              <div class="bar" style="width: 75%;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-open" style="display: none;"><span data-livetimer-date-primitive="1417917600000" class="hg-date" data-livetimer-date-original="Sat  6 Dec 2014  6:00 PM PST" title="opened on Sat  6 Dec 2014  6:00 PM PST
+(6 days, 4 hours ago)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">opened Sat  6 Dec 2014  6:00 PM PST</span><span class="livetimer-relative">opened 6day 4h ago</span></span></div>
+              <div class="hg-asst-interval-part hg-asst-interval-close"><span data-livetimer-date-primitive="1418605200000" class="hg-date" data-livetimer-date-original="Sun 14 Dec 2014  5:00 PM PST" title="is due on Sun 14 Dec 2014  5:00 PM PST
+(in 1 day, 20 hours)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">due Sun 14 Dec 2014  5:00 PM PST</span><span class="livetimer-relative">due in 1day 20h</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Evaluation Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-peerGrading" class="hg-nav-step active"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets" class="hg-internal" data-original-title=""><span class="step">2.</span><span>Evaluate peers</span><span class="hg-nav-step-status hg-nav-step-status-select-todo"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other"></span></span></a></li>
+            <li id="hg-nav-step-selfGrading" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/selfGradingSets" class="hg-internal disabled" data-original-title="" disabled="disabled"><span class="step">3.</span><span>Self-evaluate</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-todo icon-check-empty"></span><span class="hg-nav-step-status-other icon-lock"></span></span></a></li>
+          </ul>
+        </li>
+        <li id="hg-nav-phase-results" class="hg-nav-phase hg-nav-border-left hg-nav-border-right" data-hg-date-status="future">
+          <div class="hg-nav-top-row">
+            <div class="progress progress-info">
+              <div class="bar" style="width: 0px;"></div>
+            </div>
+            <div class="hg-asst-interval">
+              <div class="hg-asst-interval-part hg-asst-interval-available"><span data-livetimer-date-primitive="1418608800000" class="hg-date" data-livetimer-date-original="Sun 14 Dec 2014  6:00 PM PST" title="available Sun 14 Dec 2014  6:00 PM PST
+(in 1 day, 21 hours)" data-hg-date-status="" style="height: 0px; width: 0px;"><span class="livetimer-absolute" style="display: none;">available Sun 14 Dec 2014  6:00 PM PST</span><span class="livetimer-relative">in 1day 21h</span></span></div>
+            </div>
+            <div class="hg-asst-phase-reload"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/0#" class="hg-internal hg-reload">Reload</a>&nbsp;to open</div>
+            <div class="hg-nav-phase-header"><span>Results Phase</span></div>
+          </div>
+          <ul class="nav hg-nav-bottom-row">
+            <li id="hg-nav-step-results" class="hg-nav-step"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/results/mine" class="hg-internal disabled" data-original-title="" disabled="disabled"><span class="step">4.</span><span>See results</span><span class="hg-nav-step-status hg-nav-step-status-select-other"><span class="hg-nav-step-status-other icon-lock"></span></span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div></div></div>
+  <div id="assessmentMessages"></div>
+  <div id="assessmentContentRegion" class="contentRegion"><div style="display: block;">
+<div class="returnLink"><a href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008" class="hg-internal"><i class="icon-arrow-left"></i>&nbsp;Return to list</a></div>
+<!-- h1.assessmentTitle Homework 7 (in Section 8)-->
+<div id="assessmentForm">
+  <div id="topContentToolbar" class="contentToolbar form-actions">
+<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><a class="hg-internal btn" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/1"><i class="icon-step-forward"></i> Preview next submission</a>&nbsp;&nbsp;<div class="alert alert-info" style="display: inline-block; vertical-align: top">You are urged to preview the work of all 3 of your peers before you start submitting your required evaluations.<br><b>Remember</b> to click the "Submit Evaluation" button after <i>each</i> time that you fill out an evaluation.</div></div><div class="pull-left" style="text-align: left; clear: both"><div class="hg-peergrading-counter">3 remaining of 3 required evaluations</div></div><div class="pull-right"><button id="assessmentSave" class="hg-internal btn">Save draft</button><button id="assessmentSubmit" class="hg-internal btn btn-primary">Submit evaluation</button></div></div></div></div>
+  <div id="assessmentFormContent"><div class="evaluationForm"><div id="assessmentHead"><h1 class="assessmentTitle">Submission from: <span class="assessmentSubmissionAuthor">Student 1</span></h1><div id="forumThreadLinkSection"></div></div><div id="evaluatedGroup-bddc72c0e9443ca4" class="assessmentSection"><div class="assessmentExposition"><div class="assessmentText shrinkableBlock" dir="auto"><p>On this page, you will submit <b>the Ruby code</b> for Homework 7 for peer assessment and assess submissions from some other students. <i>We will not use peer assessment for your SML code.</i> Please follow the instructions carefully.</p>
+
+<p>For submission, follow these instructions (same as for previous homeworks):</p>
+<ul>
+    <li>
+        Click the "Attach a file" button below to upload your solutions file (just your Ruby solutions file, <i>not</i> your testing file nor your SML file).  This should, somewhat strangely, put the <i>name</i> of your file in the text box above the "Attach a file" button. This is correct behavior.  Do <i>not</i> paste file contents into the text box as this is unlikely to preserve indentation well.
+    </li>
+    <li>
+        Submit (or Re-submit) your assignment by clicking the big submit (or re-submit) button (after checking the Honor Code box).
+    </li>
+    <li>
+        You should see, "Your work was submitted. Review your work to make sure everything looks OK." Click on, "review your work."
+    </li>
+    <li>
+        You should see a box with the name of your file. Now you can click on this file name to get your solutions. They should appear formatted and indented exactly like the file you uploaded.  Depending on your browser, you may need to save the file and view it in a separate editor.
+    </li>
+</ul>
+
+<p>For assessing others' submissions, <b>first carefully read the instructions on  
+<a target="" href="https://class.coursera.org/proglang-003/human_grading/index">the main peer assessment page</a></b>. Then read the specific instructions for grading each problem.  Because the file you are downloading contains a program you did not write, follow general security precautions: Do not run the code without checking that it does no harmful things.  For completing peer assessment, you probably do not need to run the code at all since you are evaluating how the code is written.
+</p>
+
+<p><i>Remember to do at least as good a job as you hope others will do for your assignment.</i>
+</p></div></div></div><div id="evaluatedGroup-58291d144de2c30e" class="assessmentSection"><div id="evaluatedGroup-f831be19956accf4" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-f831be19956accf4" class="assessmentText" dir="auto">Follow the instructions above to upload your Ruby file.  Remember in this assignment, we are using peer assessment for only the Ruby code.
+</div></div><div class="assessmentAnswer" aria-labelledby="assessmentText-f831be19956accf4"><div class="assessmentText" dir="auto" data-bind="html submission.fields.80422f9f3634f538">My assignment file is hw7.rb<br>Thank you for your time and your comments.<br><br><a href="https://s3.amazonaws.com/coursera-uploads/user-2ae530ff62cfdaf1f2d043c6/973301/asst-13/feba02507cdc11e4ab41078f95a353f0.rb" title="Link: https://s3.amazonaws.com/coursera-uploads/user-2ae530ff62cfdaf1f2d043c6/973301/asst-13/feba02507cdc11e4ab41078f95a353f0.rb">hw7</a><br></div><a target="_blank" href="https://class.coursera.org/proglang-003/help/flag?url=https%3A%2F%2Fclass.coursera.org%2Fproglang-003%2Fhuman_grading%2Fview%2Fcourses%2F973301%2Fassessments%2F13%2Fsubmissions%2F11217" class="course-peergrading-reporter-link">flag</a></div></div><div class="evaluationGroup" data-evaluated="evaluatedGroup-f831be19956accf4"><div class="evaluationGroupHeader"><h3>Evaluation/feedback on the above work</h3></div><div id="evaluatedGroup-245df1fda9d8e977" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-245df1fda9d8e977" class="assessmentText" dir="auto">Here we will assess implementing <tt>eval_prog</tt> for the subclasses of <tt>GeometryValue</tt>, i.e., classes <tt>NoPoints</tt> (which was provided) <tt>Point</tt>, <tt>Line</tt>, <tt>VerticalLine</tt>, and <tt>LineSegment</tt>. In all cases the correct solution is just
+<pre>  def eval_prog env
+    self
+  end
+</pre>
+Give a 5 for two different solutions: Putting such a method definition in each class or putting one such definition in the <tt>GeometryValue</tt> superclass. (The inheritance approach is good OOP style, but it is less similar to the provided ML code, which did
+not use the analogous approach of a wildcard pattern.) You can also give a 5 for solutions that return copies, such as the method in <tt>Point</tt> returning <tt>Point.new(@x,@y)</tt>. This is unnecessary since the objects do not have setter methods, but it is not terrible
+style.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-245df1fda9d8e977"><div id="2ac9b9a1130b1b35-validationErrorMessage" class="validationErrorMessage"></div><div id="2ac9b9a1130b1b35-validationErrorContainer"><select id="evaluationField-2ac9b9a1130b1b35" data-modelbind="evaluation.fields.2ac9b9a1130b1b35" aria-labelledby="assessmentText-245df1fda9d8e977" class="assessmentFormField">  <option value=""></option>  <option value="61e8f8b97093b0a1">1</option>  <option value="cf66b0d3a979d30">2</option>  <option value="60fb74facf70ff71">3</option>  <option value="c46eb9d26284c1c">4</option>  <option value="f0ba81a034ef3e69">5</option></select></div></div></div><div id="evaluatedGroup-c54e2f5b24b448c5" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-c54e2f5b24b448c5" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-c54e2f5b24b448c5"><div id="f1f41a375cf19f24-validationErrorMessage" class="validationErrorMessage"></div><div id="f1f41a375cf19f24-validationErrorContainer"><textarea dir="auto" id="textarea-f1f41a375cf19f24" data-modelbind="evaluation.fields.f1f41a375cf19f24" data-min-words="0" aria-labelledby="assessmentText-c54e2f5b24b448c5" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-f1f41a375cf19f24" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-c83960eedf745dfe" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-c83960eedf745dfe" class="assessmentText" dir="auto">Here we will assess the <tt>eval_prog</tt> methods for the non-value classes (<tt>Intersect</tt>, <tt>Let</tt>, <tt>Var</tt>, and <tt>Shift</tt>). Here are sample solutions:
+<pre># in Intersect
+   def eval_prog env
+    @e1.eval_prog(env).intersect @e2.eval_prog(env)
+  end
+# in Let
+  def eval_prog env
+    @e2.eval_prog([[@s,@e1.eval_prog(env)]] + env)
+  end
+# in Var
+  def eval_prog env
+    pr = env.assoc @s
+    raise "undefined variable" if pr.nil?
+    pr[1]
+  end
+# in Shift
+  def eval_prog env
+    @e.eval_prog(env).shift(@dx,@dy)
+  end
+</pre>
+The key thing to evaluate is that the solutions invoke methods on the results of the recursion, particularly the <tt>intersect</tt> method call in the <tt>Intersect</tt> class and the <tt>shift</tt> method call in the <tt>Shift</tt> class. Give at most a 3 for not using such a coding pattern.
+Be more flexible on other details of the method definitions. For example, it is fine to use local variables more than the sample solution.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-c83960eedf745dfe"><div id="40e1fe30f0859e0e-validationErrorMessage" class="validationErrorMessage"></div><div id="40e1fe30f0859e0e-validationErrorContainer"><select id="evaluationField-40e1fe30f0859e0e" data-modelbind="evaluation.fields.40e1fe30f0859e0e" aria-labelledby="assessmentText-c83960eedf745dfe" class="assessmentFormField">  <option value=""></option>  <option value="6852b89880378204">1</option>  <option value="861b31b4c062f78c">2</option>  <option value="d0fabeac5de669c5">3</option>  <option value="52076a34240cd02c">4</option>  <option value="f15be690e5a866bd">5</option></select></div></div></div><div id="evaluatedGroup-e353dfa257956465" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-e353dfa257956465" class="assessmentText" dir="auto">Feedback</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-e353dfa257956465"><div id="a56551ca4e0892a9-validationErrorMessage" class="validationErrorMessage"></div><div id="a56551ca4e0892a9-validationErrorContainer"><textarea dir="auto" id="textarea-a56551ca4e0892a9" data-modelbind="evaluation.fields.a56551ca4e0892a9" data-min-words="0" aria-labelledby="assessmentText-e353dfa257956465" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-a56551ca4e0892a9" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-6ab49e35812422de" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-6ab49e35812422de" class="assessmentText" dir="auto">Here we assess the <tt>preprocess_prog</tt> methods in the subclasses of <tt>GeometryValue</tt>. Here are sample solutions:
+<pre># in Point
+  def preprocess_prog
+    self
+  end
+# in Line
+  def preprocess_prog
+    self
+  end
+# in VerticalLine
+  def preprocess_prog
+    self
+  end
+# in LineSegment
+  def preprocess_prog
+    if real_close_point(@x1,@y1,@x2,@y2)
+      Point.new(@x1,@y1)
+    elsif real_close(@x1,@x2)
+      if @y1 &gt; @y2
+        LineSegment.new(@x2,@y2,@x1,@y1)
+      else 
+        self
+      end
+    elsif @x1 &gt; @x2
+      LineSegment.new(@x2,@y2,@x1,@y1)
+    else
+      self
+    end
+  end
+</pre>
+<ul>
+    <li>As when assessing <tt>eval_prog</tt> for the subclasses of <tt>GeometryValue</tt>, it is also fine to define a method in <tt>GeometryValue</tt> that returns <tt>self</tt>. You then still need a definition in <tt>LineSegment</tt> that overrides this method.</li>
+    <li>Also as with <tt>eval_prog</tt>, it is okay, although a bit wasteful, to return copies of objects instead of <tt>self</tt>.</li>
+    <li>For the <tt>LineSegment</tt> case, look for clear logic for the four different cases: converting to a point, flipping order for a non-vertical segment, flipping order for a vertical segment, and not changing anything.</li>
+</ul>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-6ab49e35812422de"><div id="633f4c5d81b17ea-validationErrorMessage" class="validationErrorMessage"></div><div id="633f4c5d81b17ea-validationErrorContainer"><select id="evaluationField-633f4c5d81b17ea" data-modelbind="evaluation.fields.633f4c5d81b17ea" aria-labelledby="assessmentText-6ab49e35812422de" class="assessmentFormField">  <option value=""></option>  <option value="fd9ffca9944b7e30">1</option>  <option value="ecce26b762626abc">2</option>  <option value="91ba3feb95e7ffba">3</option>  <option value="66872cf6f143d228">4</option>  <option value="c50146601256190a">5</option></select></div></div></div><div id="evaluatedGroup-48afa3cebcb9ffe5" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-48afa3cebcb9ffe5" class="assessmentText" dir="auto">Feedback<br></div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-48afa3cebcb9ffe5"><div id="f9239278b0eee40-validationErrorMessage" class="validationErrorMessage"></div><div id="f9239278b0eee40-validationErrorContainer"><textarea dir="auto" id="textarea-f9239278b0eee40" data-modelbind="evaluation.fields.f9239278b0eee40" data-min-words="0" aria-labelledby="assessmentText-48afa3cebcb9ffe5" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-f9239278b0eee40" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-bda9ce0e598f4610" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-bda9ce0e598f4610" class="assessmentText" dir="auto">Here we will assess the <tt>preprocess_prog</tt> methods for the non-value classes (<tt>Intersect</tt>, <tt>Let</tt>, <tt>Var</tt>, and <tt>Shift</tt>). Here are sample solutions:
+<pre># in Intersect
+  def preprocess_prog
+    Intersect.new(@e1.preprocess_prog,
+                  @e2.preprocess_prog)
+  end
+# in Let
+  def preprocess_prog
+    Let.new(@s, @e1.preprocess_prog, @e2.preprocess_prog)
+  end
+# in Var
+  def preprocess_prog
+    self
+  end
+# in Shift
+  def preprocess_prog
+    Shift.new(@dx,@dy,@e.preprocess_prog)
+  end
+</pre>
+All these cases should have the simple recursive form above, though of course the coding details need not be identical. It is okay if the case for <tt>Var</tt> makes a new object, like <tt>Var.new(@s)</tt>. Give at most a 4 for significantly more complicated solutions,
+which may result if the solution tries to avoid creating new objects when the subexpressions do not change. (There is some small benefit in this, but it is not worth the complication.)
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-bda9ce0e598f4610"><div id="aae0f5f2890dd8a-validationErrorMessage" class="validationErrorMessage"></div><div id="aae0f5f2890dd8a-validationErrorContainer"><select id="evaluationField-aae0f5f2890dd8a" data-modelbind="evaluation.fields.aae0f5f2890dd8a" aria-labelledby="assessmentText-bda9ce0e598f4610" class="assessmentFormField">  <option value=""></option>  <option value="f0333d93ee1142b0">1</option>  <option value="7b04d46cde8fd096">2</option>  <option value="6f7dcaa28c3d8ad5">3</option>  <option value="81377f3448bef766">4</option>  <option value="418745944bbd9888">5</option></select></div></div></div><div id="evaluatedGroup-4612b98bf2a1579" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-4612b98bf2a1579" class="assessmentText" dir="auto">Feedback
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-4612b98bf2a1579"><div id="32737b22d12bd680-validationErrorMessage" class="validationErrorMessage"></div><div id="32737b22d12bd680-validationErrorContainer"><textarea dir="auto" id="textarea-32737b22d12bd680" data-modelbind="evaluation.fields.32737b22d12bd680" data-min-words="0" aria-labelledby="assessmentText-4612b98bf2a1579" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-32737b22d12bd680" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-8122967eaa663ac1" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-8122967eaa663ac1" class="assessmentText" dir="auto">Here we assess implementing shifting by having a <tt>shift</tt> method in each of the subclasses of <tt>GeometryValue</tt>. Give at most a 3 if there are <tt>shift</tt> methods in the other classes (e.g., <tt>Intersect</tt>) as this is not necessary -- such methods would never be used.
+(You can give a 5 if these methods exist but immediately raise an error.) Here are sample solutions:
+<pre># in Point
+  def shift(dx,dy) 
+    Point.new(@x + dx, @y + dy)
+  end
+# in Line
+  def shift(dx,dy)
+    Line.new(@m, @m*(-dx) + @b + dy)
+  end
+# in VerticalLine
+  def shift(dx,dy)
+    VerticalLine.new(@x+dx)
+  end
+# in LineSegment
+  def shift(dx,dy)
+    LineSegment.new(@x1+dx,@y1+dy,@x2+dx,@y2+dy)
+  end
+</pre>
+Give at most a 3 if these classes do not each have a <tt>shift</tt> method. Other coding details are not important. In particular, it is fine to use getter methods, like <tt>x1</tt> or <tt>x1()</tt> instead of <tt>@x1</tt>.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-8122967eaa663ac1"><div id="98bf72f03987effa-validationErrorMessage" class="validationErrorMessage"></div><div id="98bf72f03987effa-validationErrorContainer"><select id="evaluationField-98bf72f03987effa" data-modelbind="evaluation.fields.98bf72f03987effa" aria-labelledby="assessmentText-8122967eaa663ac1" class="assessmentFormField">  <option value=""></option>  <option value="c972986245d763a7">1</option>  <option value="18a31404a27c5d6c">2</option>  <option value="6fa1b91f96e31dd2">3</option>  <option value="5418ca3d20a74c93">4</option>  <option value="b427a9f314ffe387">5</option></select></div></div></div><div id="evaluatedGroup-7e5961c36da8ff2" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-7e5961c36da8ff2" class="assessmentText" dir="auto">Feedback
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-7e5961c36da8ff2"><div id="e81ea21e130fb0e-validationErrorMessage" class="validationErrorMessage"></div><div id="e81ea21e130fb0e-validationErrorContainer"><textarea dir="auto" id="textarea-e81ea21e130fb0e" data-modelbind="evaluation.fields.e81ea21e130fb0e" data-min-words="0" aria-labelledby="assessmentText-7e5961c36da8ff2" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-e81ea21e130fb0e" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-7dc4c968c8269b73" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-7dc4c968c8269b73" class="assessmentText" dir="auto">Here we assess the <tt>intersect</tt> methods in the subclasses of <tt>GeometryValue</tt>. These implement the first dispatch in the double-dispatch pattern. They should look like this:
+<pre># in Point
+  def intersect other
+    other.intersectPoint self 
+  end
+# in Line
+  def intersect other
+    other.intersectLine self
+  end
+# in VerticalLine
+  def intersect other
+    other.intersectVerticalLine self
+  end
+# in LineSegment
+  def intersect other
+    other.intersectLineSegment self
+  end
+</pre>
+Give at most a 3 for significantly more complicated solutions or solutions that use something like <tt>is_a?</tt>. Give at most a 3 for solutions that include <tt>intersect</tt> methods in non-value classes, unless those methods immediately raise an explicit error.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-7dc4c968c8269b73"><div id="9776fe7b95f7249a-validationErrorMessage" class="validationErrorMessage"></div><div id="9776fe7b95f7249a-validationErrorContainer"><select id="evaluationField-9776fe7b95f7249a" data-modelbind="evaluation.fields.9776fe7b95f7249a" aria-labelledby="assessmentText-7dc4c968c8269b73" class="assessmentFormField">  <option value=""></option>  <option value="ef0f18cc53ffceae">1</option>  <option value="f43fcc5ea4b1c256">2</option>  <option value="aa9ebabc5baaaf12">3</option>  <option value="fe494f6726582a2b">4</option>  <option value="a045128bbc5157b">5</option></select></div></div></div><div id="evaluatedGroup-7416500179dd87fa" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-7416500179dd87fa" class="assessmentText" dir="auto">Feedback
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-7416500179dd87fa"><div id="c4f5423e168af53f-validationErrorMessage" class="validationErrorMessage"></div><div id="c4f5423e168af53f-validationErrorContainer"><textarea dir="auto" id="textarea-c4f5423e168af53f" data-modelbind="evaluation.fields.c4f5423e168af53f" data-min-words="0" aria-labelledby="assessmentText-7416500179dd87fa" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-c4f5423e168af53f" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-cbfbf20ed9f27f3" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-cbfbf20ed9f27f3" class="assessmentText" dir="auto">Here we assess the 9 cases of intersection that involve neither instances of <tt>NoPoints</tt> nor instances of <tt>LineSegment</tt>. These 9 cases should be handled with methods called <tt>intersectPoint</tt>, <tt>intersectLine</tt>, and <tt>intersectVerticalLine</tt> in each of the classes <tt>Point</tt>,
+<tt>Line</tt>, and <tt>VerticalLine</tt> (9 methods total). In the sample solution below, we use commutativity to avoid repeating computations, but it is okay if a solution does not do this or if it reverses which cases rely on which others using commutativity.
+<pre># in Point
+  def intersectPoint p 
+    if real_close_point(<a href="mailto:@x,@y,p.x,p.y) then self else NoPoints.new">@x,@y,p.x,p.y) then self else NoPoints.new</a> end
+  end
+  def intersectLine line 
+    if real_close(@y, line.m * @x + line.b) then self else NoPoints.new end
+  end
+  def intersectVerticalLine vline 
+    if real_close(@x, vline.x) then self else NoPoints.new end
+  end
+# in Line
+  def intersectPoint p 
+    p.intersectLine self
+  end
+  def intersectLine line 
+    if real_close(m,line.m)
+      (if real_close(b,line.b)
+         self # same line
+       else 
+         NoPoints.new # parallel lines do not intersect
+       end) 
+    else # one-point intersection
+      x = (line.b - b).to_f / (m - line.m)
+      y = m * x + b
+      Point.new(x,y)
+    end
+  end
+  def intersectVerticalLine vline 
+    Point.new(vline.x, m * vline.x + b)
+  end
+# in VerticalLine
+  def intersectPoint p
+    p.intersectVerticalLine self
+  end
+  def intersectLine line
+    line.intersectVerticalLine self
+  end
+  def intersectVerticalLine vline
+    if real_close(x,vline.x)
+      self # same line
+    else
+      NoPoints.new # parallel 
+    end
+  end
+</pre>
+Give at most a 3 to solutions not having 9 methods as outlined above or having solutions that use <tt>is_a?</tt> or similar methods. Within the method bodies, the code should be similar to the provided ML code but be flexible on the details. In particular, it
+is okay to return a new object rather than self in some places.
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-cbfbf20ed9f27f3"><div id="c12022697a71abcd-validationErrorMessage" class="validationErrorMessage"></div><div id="c12022697a71abcd-validationErrorContainer"><select id="evaluationField-c12022697a71abcd" data-modelbind="evaluation.fields.c12022697a71abcd" aria-labelledby="assessmentText-cbfbf20ed9f27f3" class="assessmentFormField">  <option value=""></option>  <option value="ae7062086cc86b11">1</option>  <option value="f2125f171b6942e">2</option>  <option value="374d378e6d75259c">3</option>  <option value="1e92be347e3c8b19">4</option>  <option value="d4f93f24f8f69995">5</option></select></div></div></div><div id="evaluatedGroup-c9de1b8b9776f202" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-c9de1b8b9776f202" class="assessmentText" dir="auto">Feedback
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-c9de1b8b9776f202"><div id="6956bea35a2ae185-validationErrorMessage" class="validationErrorMessage"></div><div id="6956bea35a2ae185-validationErrorContainer"><textarea dir="auto" id="textarea-6956bea35a2ae185" data-modelbind="evaluation.fields.6956bea35a2ae185" data-min-words="0" aria-labelledby="assessmentText-c9de1b8b9776f202" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-6956bea35a2ae185" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-3c1a1a024075dc4c" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-3c1a1a024075dc4c" class="assessmentText" dir="auto">Here we assess that the <tt>LineSegment</tt> class also needs methods <tt>intersectPoint</tt>, <tt>intersectLine</tt>, and <tt>intersectVerticalLine</tt>. Here is a sample solution:
+<pre># in LineSegment
+  def intersectPoint p 
+    p.intersectLineSegment self
+  end
+  def intersectLine line 
+    line.intersectLineSegment self
+  end
+  def intersectVerticalLine vline
+    vline.intersectLineSegment self
+  end
+</pre>
+There may be other fine ways to implement this part of the assignment. But give a 4 for solutions that copy the code in the <tt>intersectLineSegment</tt> method, for example:
+<pre>  def intersectPoint p
+    line_result = p.intersect(two_points_to_line(x1,y1,x2,y2))
+    line_result.intersectWithSegmentAsLineResult self
+  end
+</pre>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-3c1a1a024075dc4c"><div id="e644c0dea465d0b4-validationErrorMessage" class="validationErrorMessage"></div><div id="e644c0dea465d0b4-validationErrorContainer"><select id="evaluationField-e644c0dea465d0b4" data-modelbind="evaluation.fields.e644c0dea465d0b4" aria-labelledby="assessmentText-3c1a1a024075dc4c" class="assessmentFormField">  <option value=""></option>  <option value="c91640a0ad103301">1</option>  <option value="604df3950efddb4">2</option>  <option value="ef32b94bec8fcd57">3</option>  <option value="f8f87a06853df134">4</option>  <option value="3ab989c0a3a1911">5</option></select></div></div></div><div id="evaluatedGroup-599678e24d3cd30d" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-599678e24d3cd30d" class="assessmentText" dir="auto">Feedback
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-599678e24d3cd30d"><div id="75ad13ad17a243a1-validationErrorMessage" class="validationErrorMessage"></div><div id="75ad13ad17a243a1-validationErrorContainer"><textarea dir="auto" id="textarea-75ad13ad17a243a1" data-modelbind="evaluation.fields.75ad13ad17a243a1" data-min-words="0" aria-labelledby="assessmentText-599678e24d3cd30d" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-75ad13ad17a243a1" style="color: black;">You've written 0 words</span></div></div></div></div><div id="evaluatedGroup-5f82e30686aca0c0" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-5f82e30686aca0c0" class="assessmentText" dir="auto">Finally, we assess the implementations of <tt>intersectWithSegmentAsLineResult</tt>. For the longer ones, the solution is unlikely to look exactly like the sample solution, which, as always, is fine. Give at most a 3 to solutions that use <tt>is_a?</tt> or similar methods.
+<pre># in Point
+  def intersectWithSegmentAsLineResult seg 
+    if inbetween(@x,seg.x1,seg.x2) &amp;&amp; inbetween(@y,seg.y1,seg.y2)
+      self
+    else
+      NoPoints.new
+    end
+  end
+  private
+  def inbetween(v,end1,end2)
+    eps = GeometryExpression::Epsilon
+    ((end1 - eps &lt;= v &amp;&amp; v &lt;= end2 + eps) || 
+     (end2 - eps &lt;= v &amp;&amp; v &lt;= end1 + eps))
+  end
+# in Line
+  def intersectWithSegmentAsLineResult seg 
+    seg # so segment seg in on line represented by self
+  end
+# in Vertical Line
+  def intersectWithSegmentAsLineResult seg 
+    seg # so segment seg in on vertical line represented by self
+  end
+# in LineSegment
+  def intersectWithSegmentAsLineResult seg 
+    # the "hard case in the hard case" where self and seg are segments
+    # on the same line (which could be vertical or not) and the segments
+    # could be disjoint, overlapping, one inside the other or just touching
+    if real_close(@x1,@x2)
+      # the segments are on a vertical line
+      # let segment a start at or below start of segment b
+      aXstart,aYstart,aXend,aYend,bXstart,bYstart,bXend,bYend = 
+        if @y1 &lt; seg.y1
+          [@x1,@y1,@x2,@y2,seg.x1,seg.y1,seg.x2,seg.y2]
+        else
+          [seg.x1,seg.y1,seg.x2,seg.y2,@x1,@y1,@x2,@y2]
+        end
+      if real_close(aYend,bYstart)
+        Point.new(aXend,aYend) # just touching
+      elsif aYend &lt; bYstart
+        NoPoints.new # disjoint
+      elsif aYend &gt; bYend
+        LineSegment.new(bXstart,bYstart,bXend,bYend) # b inside a 
+      else 
+        LineSegment.new(bXstart,bYstart,aXend,aYend) # overlapping 
+      end
+    else
+      # the segments are on a non-vertical line
+      # let segment a start at or to the left of start of segment b
+      aXstart,aYstart,aXend,aYend,bXstart,bYstart,bXend,bYend = 
+        if @x1 &lt; seg.x1
+          [@x1,@y1,@x2,@y2,seg.x1,seg.y1,seg.x2,seg.y2]
+        else
+          [seg.x1,seg.y1,seg.x2,seg.y2,@x1,@y1,@x2,@y2]
+        end
+      if real_close(aXend,bXstart)
+        Point.new(aXend,aYend) # just touching
+      elsif aXend &lt; bXstart
+        NoPoints.new # disjoint
+      elsif aXend &gt; bXend
+        LineSegment.new(bXstart,bYstart,bXend,bYend) # b inside a 
+      else 
+        LineSegment.new(bXstart,bYstart,aXend,aYend) # overlapping 
+      end
+    end
+  end
+</pre>
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-5f82e30686aca0c0"><div id="55b62713f26a71e4-validationErrorMessage" class="validationErrorMessage"></div><div id="55b62713f26a71e4-validationErrorContainer"><select id="evaluationField-55b62713f26a71e4" data-modelbind="evaluation.fields.55b62713f26a71e4" aria-labelledby="assessmentText-5f82e30686aca0c0" class="assessmentFormField">  <option value=""></option>  <option value="204a54c381c45c9">1</option>  <option value="d2cfd3d05021b580">2</option>  <option value="8c652a9fdcea75c2">3</option>  <option value="2b662e3e69c564b8">4</option>  <option value="36c1a77144bd636e">5</option></select></div></div></div><div id="evaluatedGroup-c88f795437aa23a6" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-c88f795437aa23a6" class="assessmentText" dir="auto">Feedback
+</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-c88f795437aa23a6"><div id="3d542b39786b1259-validationErrorMessage" class="validationErrorMessage"></div><div id="3d542b39786b1259-validationErrorContainer"><textarea dir="auto" id="textarea-3d542b39786b1259" data-modelbind="evaluation.fields.3d542b39786b1259" data-min-words="0" aria-labelledby="assessmentText-c88f795437aa23a6" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-3d542b39786b1259" style="color: black;">You've written 0 words</span></div></div></div></div></div></div><div class="sectionEvaluationGroup" data-evaluated="evaluatedGroup-58291d144de2c30e"><div class="evaluationGroupHeader"><h3>Overall evaluation/feedback</h3></div><div id="evaluatedGroup-9928cd48b527cf8" class="assessmentGroup"><div class="assessmentExposition"><div id="assessmentText-9928cd48b527cf8" class="assessmentText" dir="auto">Overall Feedback: Put any general feedback not specific to individual problems here. This is optional.</div></div><div class="assessmentEvaluation" aria-labelledby="assessmentText-9928cd48b527cf8"><div id="c83cd565fbd24f4-validationErrorMessage" class="validationErrorMessage"></div><div id="c83cd565fbd24f4-validationErrorContainer"><textarea dir="auto" id="textarea-c83cd565fbd24f4" data-modelbind="evaluation.fields.c83cd565fbd24f4" data-min-words="0" aria-labelledby="assessmentText-9928cd48b527cf8" rows="2" style="width: 100%; resize: vertical" class="assessmentFormField" data-count-words="0"></textarea><div style="text-align:right;"><span id="pg-word-count-c83cd565fbd24f4" style="color: black;">You've written 0 words</span></div></div></div></div></div> </div></div>
+  <div id="bottomContentToolbar" class="contentToolbar form-actions">
+<div class="assessmentActionBar"><div class="contentToolbarButtons"><div class="pull-left" style="text-align: left;"><a class="hg-internal btn" href="https://class.coursera.org/proglang-003/human_grading/view/courses/973301/assessments/13/peerGradingSets/9008/peerGradings/1"><i class="icon-step-forward"></i> Preview next submission</a>&nbsp;&nbsp;<div class="alert alert-info" style="display: inline-block; vertical-align: top">You are urged to preview the work of all 3 of your peers before you start submitting your required evaluations.<br><b>Remember</b> to click the "Submit Evaluation" button after <i>each</i> time that you fill out an evaluation.</div></div><div class="pull-left" style="text-align: left; clear: both"><div class="hg-peergrading-counter">3 remaining of 3 required evaluations</div></div><div class="pull-right"><button id="assessmentSave" class="hg-internal btn">Save draft</button><button id="assessmentSubmit" class="hg-internal btn btn-primary">Submit evaluation</button></div></div></div></div>
+</div>
+<div class="coursera-signature-modal"></div></div></div>
+</div></div></div>
+
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="./hw7_sample_solutions_files/modernizr-custom.js"></script>
+  <script src="./hw7_sample_solutions_files/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/fea521863c19547fe5c7be8e15acfb601693f0be/" data-version="fea521863c19547fe5c7be8e15acfb601693f0be" data-timestamp="1418436127408" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/hg/js/app/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":8585290,\"email_address\":\"pmengguan@gmail.com\",\"full_name\":\"Pan Mengguan\",\"locale\":null,\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1407939490\",\"last_access_time\":\"1418447725\",\"last_access_ip\":\"113.140.29.9\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"Pan\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"212\",\"250\",\"402\",\"404\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":973301,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Programming Languages\",\"instructor\":\"Dan  Grossman\",\"sessionName\":\"proglang-003\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"proglang\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":\"\",\"linkable\":false,\"universityShortname\":\"uw\",\"signatureTrackStatus\":{\"signature_track_enabled\":1},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signin?post_redirect=https%3A%2F%2Faccounts.coursera.org%2Fsignin%3Fuser_action%3Dclass%26course_id%3D973301%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fproglang-003%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?enroll_cid=973301&enroll_sn=proglang&enroll_n=Programming Languages\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/proglang\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fproglang\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/\",\"search\":true,\"hideWiki\":true,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":\"\",\"aceExamDuration\":\"\",\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":\"\",\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":true,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":0,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":\"\",\"honorCodeCustomButton\":\"\",\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home \\\/ Announcements\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Videos and Reading Notes\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"Programming Assignments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"assignment:index\"},{\"name\":\"Peer Assessments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"human_grading:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Exams\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=exam\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"About the Course\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"Course Logistics \\\/ Policies\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Software Installation\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"SoftwareInstallation\"},{\"name\":\"Anticipated Schedule\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"approxSchedule\"},{\"name\":\"About the Course Staff\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Coursera Demographic Survey\",\"icon\":\"\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/www.surveymonkey.com\\\/s\\\/5NPGQRR?c=18f8cc45aa297f081faa9c948e6d091193aaaf11\"},{\"name\":\"Beginning of Course Survey\",\"icon\":\"wiki\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/quiz\\\/start?quiz_id=428\"},{\"name\":\"End-Of-Course Survey for Course Completers\",\"icon\":\"\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/quiz\\\/start?quiz_id=414\"},{\"name\":\"End-Of-Course Survey for Non-Course-Completers\",\"icon\":\"\",\"link_type\":\"link\",\"link_data\":\"https:\\\/\\\/class.coursera.org\\\/proglang-003\\\/quiz\\\/start?quiz_id=416\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div></body></html>

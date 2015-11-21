@@ -1,0 +1,33 @@
+#lang racket
+
+(require "dynamic_dispatch_simu.rkt")
+
+(define p1 (make-point 4 0))
+(send p1 'get-x)
+(send p1 'get-y)
+(send p1 'distFromOrigin)
+(send p1 'distFromOrigin2)
+(send p1 'set-y 3)
+(send p1 'distFromOrigin)
+(send p1 'distFromOrigin2)
+
+(define p2 (make-color-point -4 0 "red"))
+(send p2 'get-x)
+(send p2 'get-y)
+(send p2 'distFromOrigin)
+(send p2 'distFromOrigin2)
+(send p2 'set-y 3)
+(send p2 'distFromOrigin)
+(send p2 'distFromOrigin2)
+(send p2 'get-color)
+(send p2 'set-color "blue")
+(send p2 'get-color)
+
+(define p3 (make-polar-point 4 3.1415926535))
+(send p3 'get-x)
+(send p3 'get-y)
+(send p3 'distFromOrigin)
+(send p3 'distFromOrigin2)
+(send p3 'set-y 3)
+(send p3 'distFromOrigin)
+(send p3 'distFromOrigin2)

@@ -1,0 +1,1 @@
+function gen_new_key(new_key_url,csrf_token){$("#homework_actual_key").fadeOut("slow",function(){$.ajax({url:new_key_url,type:"post",success:function(data){$("#homework_actual_key").html(data),$("#homework_actual_key").fadeIn("slow")},headers:{"X-CSRF-Token":csrf_token}})})}

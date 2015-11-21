@@ -1,0 +1,16 @@
+#lang racket
+
+(define (my-delay th)
+  (mcons #f th))
+
+(define (my-force p)
+  (if (mcar p)
+      (mcdr p)
+      (begin (set-mcar! p #t)
+             (set-mcdr! p ((mcdr p)))
+             (mcdr p))))
+
+(define (my-mult x y)
+  (cond [(= x 0) 0]
+        [(= x 1) y]
+        [#t (+ y (my-mult (- x 1) y))]))

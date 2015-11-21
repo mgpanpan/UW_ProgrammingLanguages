@@ -1,0 +1,2 @@
+hw2.sml:
+1.(a)(b)(c), does not conform to the rules because of the use of isSome and valOf.

@@ -1,0 +1,1 @@
+define(["jquery","js/lib/modals"],function($,Modal){$(function(){var modal=new Modal($("#modal-auth-explanation"),{"overlay.class":"course-modal-overlay","overlay.close":!0,"bind.esc":!0});$(".coursera-auth-question").bind("click",function(){modal.open()})})});

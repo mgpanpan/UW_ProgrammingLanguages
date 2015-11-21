@@ -1,0 +1,5 @@
+All_pieces -> All_My_pieces
+否则提交时：
+Could not run submission tests:
+/coursera/resources/proglang/hw6a/test.rb:44:in `<main>': uninitialized constant MyPiece::All_My_Pieces (NameError)
+
